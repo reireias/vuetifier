@@ -1,6 +1,15 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/<repository-name>/'
+        }
+      }
+    : {}
+
 export default {
   mode: 'spa',
 
@@ -69,5 +78,7 @@ export default {
         })
       }
     }
-  }
+  },
+
+  ...routerBase
 }
