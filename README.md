@@ -1,4 +1,4 @@
-# vuetifier
+# Vuetifier
 
 > Vuetify.js color and component examples.
 
