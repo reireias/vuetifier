@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/reireias/vuetifier.svg?branch=master)](https://travis-ci.org/reireias/vuetifier)
 # Vuetifier
 
 > Vuetify.js color and component examples.
