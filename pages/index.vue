@@ -2,7 +2,10 @@
   <div>
     <v-layout column justify-center align-center>
       <v-flex xs12>
-        <div class="title-text display-4 font-weight-thin">
+        <div
+          class="title-text display-4 font-weight-thin"
+          :style="`color: ${$vuetify.theme.primary};`"
+        >
           Vuetifier
         </div>
       </v-flex>
