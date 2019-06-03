@@ -6,6 +6,9 @@
       </div>
     </v-flex>
     <v-flex text-xs-center xs12>
+      <v-avatar>
+        <img src="Octocat.png" alt="image" />
+      </v-avatar>
       <v-avatar color="primary">
         <v-icon :dark="dark">account_circle</v-icon>
       </v-avatar>
