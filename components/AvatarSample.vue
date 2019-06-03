@@ -6,12 +6,6 @@
       </div>
     </v-flex>
     <v-flex text-xs-center xs12>
-      <v-avatar>
-        <img
-          scr="https://lh4.googleusercontent.com/-fx1W-PdmygY/AAAAAAAAAAI/AAAAAAAAAY4/Eg3oxKeYHEM/photo.jpg"
-          alt="image"
-        />
-      </v-avatar>
       <v-avatar color="primary">
         <v-icon :dark="dark">account_circle</v-icon>
       </v-avatar>
