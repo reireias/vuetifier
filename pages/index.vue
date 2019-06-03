@@ -8,19 +8,31 @@
       </v-flex>
     </v-layout>
 
-    <button-sample></button-sample>
+    <button-sample class="component"></button-sample>
+    <alert-sample class="component"></alert-sample>
+    <avatar-sample class="component"></avatar-sample>
   </div>
 </template>
 
 <script>
 import ButtonSample from '@/components/ButtonSample'
+import AlertSample from '@/components/AlertSample'
+import AvatarSample from '@/components/AvatarSample'
 import { mapGetters } from 'vuex'
 export default {
   components: {
-    ButtonSample
+    ButtonSample,
+    AlertSample,
+    AvatarSample
   },
   computed: {
     ...mapGetters(['dark'])
   }
 }
 </script>
+
+<style>
+.component {
+  margin-bottom: 50px;
+}
+</style>
