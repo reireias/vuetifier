@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-layout column justify-center align-center>
+    <v-layout column justify-center align-center style="margin-bottom: 20px;">
       <v-flex xs12>
         <div class="primary--text title-text display-4 font-weight-light">
           Vuetifier
@@ -16,9 +16,23 @@
       </v-flex>
     </v-layout>
 
-    <button-sample class="component"></button-sample>
-    <alert-sample class="component"></alert-sample>
-    <avatar-sample class="component"></avatar-sample>
+    <v-layout row wrap>
+      <v-flex xs12 md6>
+        <v-card height="100%">
+          <button-sample class="component"></button-sample>
+        </v-card>
+      </v-flex>
+      <v-flex xs12 md6>
+        <v-card height="100%">
+          <alert-sample class="component"></alert-sample>
+        </v-card>
+      </v-flex>
+      <v-flex xs12 md6>
+        <v-card height="100%">
+          <avatar-sample class="component"></avatar-sample>
+        </v-card>
+      </v-flex>
+    </v-layout>
   </div>
 </template>
 
@@ -46,6 +60,6 @@ export default {
 
 <style>
 .component {
-  margin-bottom: 50px;
+  padding: 20px;
 }
 </style>

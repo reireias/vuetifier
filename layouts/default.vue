@@ -67,7 +67,7 @@
       </v-dialog>
     </v-navigation-drawer>
     <v-content>
-      <v-container>
+      <v-container fluid grid-list-md>
         <nuxt v-bind="dark" />
       </v-container>
     </v-content>
