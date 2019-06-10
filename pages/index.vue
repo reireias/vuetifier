@@ -11,6 +11,9 @@
           Vuetify UI component samples with theme color.
         </div>
       </v-flex>
+      <v-flex xs12>
+        <div class="title">Vuetify: {{ version }}</div>
+      </v-flex>
     </v-layout>
 
     <button-sample class="component"></button-sample>
@@ -30,11 +33,13 @@ export default {
     AlertSample,
     AvatarSample
   },
+  data() {
+    return {
+      version: process.env.vuetifyVersion
+    }
+  },
   computed: {
     ...mapGetters(['dark'])
-  },
-  mounted() {
-    console.log(this.$vuetify)
   }
 }
 </script>

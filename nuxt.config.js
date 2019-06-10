@@ -12,10 +12,6 @@ const routerBase =
 
 export default {
   mode: 'spa',
-
-  /*
-   ** Headers of the page
-   */
   head: {
     title: pkg.name,
     meta: [
@@ -37,30 +33,13 @@ export default {
       }
     ]
   },
-
-  /*
-   ** Customize the progress-bar color
-   */
+  env: {
+    vuetifyVersion: process.env.VUETIFY_VERSION || 'unknown'
+  },
   loading: { color: '#fff' },
-
-  /*
-   ** Global CSS
-   */
   css: ['~/assets/style/app.styl'],
-
-  /*
-   ** Plugins to load before mounting the App
-   */
   plugins: ['@/plugins/vuetify'],
-
-  /*
-   ** Nuxt.js modules
-   */
   modules: ['@nuxtjs/pwa'],
-
-  /*
-   ** Build configuration
-   */
   build: {
     transpile: ['vuetify/lib'],
     plugins: [new VuetifyLoaderPlugin()],
@@ -69,9 +48,6 @@ export default {
         import: ['~assets/style/variables.styl']
       }
     },
-    /*
-     ** You can extend webpack config here
-     */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
@@ -84,6 +60,5 @@ export default {
       }
     }
   },
-
   ...routerBase
 }
