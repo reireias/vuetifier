@@ -1,7 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-xs-center xs12>
-      <div class="title-text display-3 font-weight-thin">
+      <div class="title-text display-3 font-weight-light">
         Alert
       </div>
     </v-flex>

@@ -2,11 +2,13 @@
   <div>
     <v-layout column justify-center align-center>
       <v-flex xs12>
-        <div
-          class="title-text display-4 font-weight-thin"
-          :style="`color: ${$vuetify.theme.primary};`"
-        >
+        <div class="primary--text title-text display-4 font-weight-light">
           Vuetifier
+        </div>
+      </v-flex>
+      <v-flex xs12>
+        <div class="accent--text title">
+          Vuetify UI component samples with theme color.
         </div>
       </v-flex>
     </v-layout>
@@ -30,6 +32,9 @@ export default {
   },
   computed: {
     ...mapGetters(['dark'])
+  },
+  mounted() {
+    console.log(this.$vuetify)
   }
 }
 </script>
