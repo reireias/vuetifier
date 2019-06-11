@@ -13,6 +13,7 @@
       clipped
       fixed
       app
+      permanent
     >
       <v-list v-for="color in colorKeys" :key="color">
         <v-list-tile @click="onColorClick(color)">

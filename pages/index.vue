@@ -17,19 +17,9 @@
     </v-layout>
 
     <v-layout row wrap>
-      <v-flex xs12 md6>
+      <v-flex v-for="part in parts" :key="part.name" xs12 md6>
         <v-card height="100%">
-          <button-sample class="component"></button-sample>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md6>
-        <v-card height="100%">
-          <alert-sample class="component"></alert-sample>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md6>
-        <v-card height="100%">
-          <avatar-sample class="component"></avatar-sample>
+          <component :is="part" class="component"></component>
         </v-card>
       </v-flex>
     </v-layout>
@@ -37,19 +27,47 @@
 </template>
 
 <script>
+// Form Controls
+import AutoCompleteSample from '@/components/AutoCompleteSample'
+import CheckBoxSample from '@/components/CheckBoxSample'
+import DatePickerSample from '@/components/DatePickerSample'
+import FormsSample from '@/components/FormsSample'
+import InputSample from '@/components/InputSample'
+import RadioButtonSample from '@/components/RadioButtonSample'
+import SelectSample from '@/components/SelectSample'
+import SliderSample from '@/components/SliderSample'
+import SlideToggleSample from '@/components/SlideToggleSample'
+
 import ButtonSample from '@/components/ButtonSample'
 import AlertSample from '@/components/AlertSample'
 import AvatarSample from '@/components/AvatarSample'
 import { mapGetters } from 'vuex'
 export default {
   components: {
+    AutoCompleteSample,
+    CheckBoxSample,
+    DatePickerSample,
+    FormsSample,
+    InputSample,
+    RadioButtonSample,
+    SelectSample,
+    SlideToggleSample,
+    SliderSample,
     ButtonSample,
     AlertSample,
     AvatarSample
   },
   data() {
     return {
-      version: process.env.vuetifyVersion
+      version: process.env.vuetifyVersion,
+      parts: [
+        AutoCompleteSample,
+        CheckBoxSample,
+        RadioButtonSample,
+        ButtonSample,
+        AlertSample,
+        AvatarSample
+      ]
     }
   },
   computed: {
