@@ -1,23 +1,40 @@
 [![Build Status](https://travis-ci.org/reireias/vuetifier.svg?branch=master)](https://travis-ci.org/reireias/vuetifier)
 # Vuetifier
 
-> Vuetify.js color and component examples.
+Vuetify.js color and component examples.
 
-## Build Setup
 
+## install
 ``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
+yarn install
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## run as develop mode
+```bash
+yarn dev
+```
+
+## generate for GitHub Pages
+```bash
+yarn generate
+```
+
+## deploy to GitHub Pages
+```bash
+yarn deploy
+```
+
+## generate for local hosting
+```bash
+yarn generate-local
+```
+
+## start local static server
+```bash
+yarn start-static
+```
+
+## lint
+```bash
+yarn lint
+```

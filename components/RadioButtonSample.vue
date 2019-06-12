@@ -13,6 +13,7 @@
           :value="index"
           :label="color"
           :color="color"
+          :dark="dark"
         ></v-radio>
       </v-radio-group>
     </v-flex>
