@@ -11,9 +11,6 @@
           Vuetify UI component samples with theme color.
         </div>
       </v-flex>
-      <v-flex xs12>
-        <div class="title">Vuetify: {{ version }}</div>
-      </v-flex>
     </v-layout>
 
     <v-layout row wrap>
@@ -59,7 +56,6 @@ export default {
   },
   data() {
     return {
-      version: process.env.vuetifyVersion,
       parts: [
         AutoCompleteSample,
         CheckBoxSample,

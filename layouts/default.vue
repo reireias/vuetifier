@@ -4,6 +4,8 @@
       <v-btn icon @click.stop="mini = !mini">
         <v-icon>menu</v-icon>
       </v-btn>
+      <v-spacer></v-spacer>
+      <div class="title">Vuetify {{ version }}</div>
     </v-toolbar>
 
     <v-navigation-drawer
@@ -131,7 +133,8 @@ export default {
       ],
       selectColor: '',
       dialog: false,
-      dialogTitle: ''
+      dialogTitle: '',
+      version: process.env.vuetifyVersion
     }
   },
   computed: {

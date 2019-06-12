@@ -1,9 +1,13 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-xs-center xs12>
-      <div class="title-text display-3 font-weight-light">
+      <div class="title-text display-2 font-weight-light">
         Button
       </div>
+      <link-buttons
+        document="https://vuetifyjs.com/en/components/buttons"
+        source="https://github.com/reireias/vuetifier/blob/master/components/ButtonSample.vue"
+      ></link-buttons>
     </v-flex>
     <v-flex text-xs-center xs12>
       <v-btn color="primary" :dark="dark">primary</v-btn>
@@ -41,8 +45,12 @@
 </template>
 
 <script>
+import LinkButtons from '@/components/LinkButtons'
 import { mapGetters } from 'vuex'
 export default {
+  components: {
+    LinkButtons
+  },
   computed: {
     ...mapGetters(['dark'])
   }

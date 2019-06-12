@@ -1,9 +1,13 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-xs-center xs12>
-      <div class="title-text display-3 font-weight-light">
+      <div class="title-text display-2 font-weight-light">
         Autocomplete
       </div>
+      <link-buttons
+        document="https://vuetifyjs.com/en/components/autocompletes"
+        source="https://github.com/reireias/vuetifier/blob/master/components/AutoCompleteSample.vue"
+      ></link-buttons>
     </v-flex>
     <v-flex text-xs-center xs12>
       <v-autocomplete :items="states" label="States"></v-autocomplete>
@@ -12,8 +16,12 @@
 </template>
 
 <script>
+import LinkButtons from '@/components/LinkButtons'
 import { mapGetters } from 'vuex'
 export default {
+  components: {
+    LinkButtons
+  },
   data() {
     return {
       states: [
