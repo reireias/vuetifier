@@ -59,6 +59,7 @@ export default {
       parts: [
         AutoCompleteSample,
         CheckBoxSample,
+        DatePickerSample,
         RadioButtonSample,
         ButtonSample,
         AlertSample,
