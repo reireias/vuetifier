@@ -60,6 +60,7 @@ export default {
         AutoCompleteSample,
         CheckBoxSample,
         DatePickerSample,
+        FormsSample,
         RadioButtonSample,
         ButtonSample,
         AlertSample,
