@@ -32,7 +32,7 @@ import FormsSample from '@/components/FormsSample'
 import RadioButtonSample from '@/components/RadioButtonSample'
 import SelectSample from '@/components/SelectSample'
 import SliderSample from '@/components/SliderSample'
-import SlideToggleSample from '@/components/SlideToggleSample'
+import SwitchSample from '@/components/SwitchSample'
 
 import ButtonSample from '@/components/ButtonSample'
 import AlertSample from '@/components/AlertSample'
@@ -46,8 +46,8 @@ export default {
     FormsSample,
     RadioButtonSample,
     SelectSample,
-    SlideToggleSample,
     SliderSample,
+    SwitchSample,
     ButtonSample,
     AlertSample,
     AvatarSample
@@ -62,6 +62,7 @@ export default {
         RadioButtonSample,
         SelectSample,
         SliderSample,
+        SwitchSample,
         ButtonSample,
         AlertSample,
         AvatarSample
