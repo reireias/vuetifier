@@ -125,7 +125,6 @@ export default {
         'darken2',
         'darken3',
         'darken4',
-        'darken5',
         'accent1',
         'accent2',
         'accent3',
