@@ -29,7 +29,6 @@ import AutoCompleteSample from '@/components/AutoCompleteSample'
 import CheckBoxSample from '@/components/CheckBoxSample'
 import DatePickerSample from '@/components/DatePickerSample'
 import FormsSample from '@/components/FormsSample'
-import InputSample from '@/components/InputSample'
 import RadioButtonSample from '@/components/RadioButtonSample'
 import SelectSample from '@/components/SelectSample'
 import SliderSample from '@/components/SliderSample'
@@ -45,7 +44,6 @@ export default {
     CheckBoxSample,
     DatePickerSample,
     FormsSample,
-    InputSample,
     RadioButtonSample,
     SelectSample,
     SlideToggleSample,
@@ -62,6 +60,7 @@ export default {
         DatePickerSample,
         FormsSample,
         RadioButtonSample,
+        SelectSample,
         ButtonSample,
         AlertSample,
         AvatarSample
