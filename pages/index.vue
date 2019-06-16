@@ -61,6 +61,7 @@ export default {
         FormsSample,
         RadioButtonSample,
         SelectSample,
+        SliderSample,
         ButtonSample,
         AlertSample,
         AvatarSample
