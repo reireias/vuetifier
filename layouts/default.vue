@@ -1,54 +1,41 @@
 <template>
   <v-app :dark="dark">
-    <v-toolbar clipped-left fixed app>
-      <v-btn icon @click.stop="mini = !mini">
-        <v-icon>menu</v-icon>
-      </v-btn>
-      <v-spacer></v-spacer>
-      <div class="title">Vuetify {{ version }}</div>
-    </v-toolbar>
-
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="mini"
-      mini-variant-width="80"
-      clipped
-      fixed
-      app
-      permanent
-    >
-      <v-list v-for="color in colorKeys" :key="color">
-        <v-list-tile @click="onColorClick(color)">
-          <v-list-tile-avatar :color="color.toLowerCase()" />
-          <v-list-tile-title
-            >{{ color }}:
-            {{ $vuetify.theme[color.toLowerCase()] }}</v-list-tile-title
-          >
-        </v-list-tile>
-      </v-list>
+    <v-navigation-drawer v-model="drawer" width="80" fixed app permanent>
       <v-list>
         <v-list-tile>
           <v-switch
             :value="false"
             :input-value="dark"
             color="primary"
-            :label="mini ? '' : 'Dark'"
             @change="onChangeDark($event)"
           ></v-switch>
         </v-list-tile>
       </v-list>
-      <v-dialog v-model="dialog" max-width="900px">
+      <v-btn
+        v-for="color in colorKeys"
+        :key="color"
+        class="no-shadow"
+        fab
+        small
+        :color="color.toLowerCase()"
+        @click="onColorClick(color)"
+      ></v-btn>
+      <v-dialog v-model="dialog" max-width="600px">
         <v-card>
           <v-card-title>{{ dialogTitle }}</v-card-title>
           <v-card-text>
             <v-layout v-for="baseColor in baseColors" :key="baseColor" row>
-              <div v-for="colorOption in colorOptions" :key="colorOption">
+              <div
+                v-for="colorOption in colorOptions"
+                :key="colorOption"
+                class="color-button-container"
+              >
                 <v-tooltip top>
                   <template v-slot:activator="{ on }">
                     <v-btn
+                      class="color-button no-shadow"
                       :color="colors[toCamelCase(baseColor)][colorOption]"
-                      fab
-                      small
+                      block
                       v-on="on"
                       @click="
                         onColorParetClick(
@@ -85,7 +72,6 @@ export default {
   data() {
     return {
       drawer: true,
-      mini: true,
       colors: colors,
       colorKeys: [
         'Primary',
@@ -132,8 +118,7 @@ export default {
       ],
       selectColor: '',
       dialog: false,
-      dialogTitle: '',
-      version: process.env.vuetifyVersion
+      dialogTitle: ''
     }
   },
   computed: {
@@ -160,3 +145,22 @@ export default {
   }
 }
 </script>
+
+<style>
+.v-navigation-drawer {
+  text-align: center;
+}
+.color-button-container {
+  width: 40px;
+  height: 40px;
+}
+.color-button {
+  min-width: 0px !important;
+  margin: 0px !important;
+  height: 100% !important;
+  border-radius: 0px !important;
+}
+.no-shadow {
+  box-shadow: none !important;
+}
+</style>
