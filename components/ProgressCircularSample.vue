@@ -15,7 +15,7 @@
         :size="100"
         :width="15"
         :value="value"
-        color="teal"
+        color="primary"
       >
         {{ value }}
       </v-progress-circular>
@@ -24,7 +24,7 @@
         :size="100"
         :width="15"
         :value="value"
-        color="primary"
+        color="secondary"
       >
         {{ value }}
       </v-progress-circular>
@@ -33,16 +33,7 @@
         :size="100"
         :width="15"
         :value="value"
-        color="red"
-      >
-        {{ value }}
-      </v-progress-circular>
-      <v-progress-circular
-        :rotate="180"
-        :size="100"
-        :width="15"
-        :value="value"
-        color="pink"
+        color="accent"
       >
         {{ value }}
       </v-progress-circular>
