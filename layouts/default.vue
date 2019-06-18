@@ -20,7 +20,43 @@
         :color="color.toLowerCase()"
         @click="onColorClick(color)"
       ></v-btn>
-      <v-dialog v-model="dialog" max-width="600px">
+      <v-dialog v-model="dialog" max-width="800px">
+        <v-card>
+          <v-container class="dialog-container">
+            <v-layout row wrap>
+              <v-flex xs2>
+                {{ dialogTitle }}
+              </v-flex>
+              <v-flex xs10>
+                <v-layout v-for="baseColor in baseColors" :key="baseColor" row>
+                  <div
+                    v-for="colorOption in colorOptions"
+                    :key="colorOption"
+                    class="color-button-container"
+                  >
+                    <v-tooltip top>
+                      <template v-slot:activator="{ on }">
+                        <v-btn
+                          class="color-button no-shadow"
+                          :color="colors[toCamelCase(baseColor)][colorOption]"
+                          block
+                          v-on="on"
+                          @click="
+                            onColorParetClick(
+                              colors[toCamelCase(baseColor)][colorOption]
+                            )
+                          "
+                        ></v-btn>
+                      </template>
+                      <span>{{ baseColor }} {{ colorOption }}</span>
+                    </v-tooltip>
+                  </div>
+                </v-layout>
+              </v-flex>
+            </v-layout>
+          </v-container>
+        </v-card>
+        <!--
         <v-card>
           <v-card-title>{{ dialogTitle }}</v-card-title>
           <v-card-text>
@@ -54,6 +90,7 @@
             <v-btn @click="dialog = !dialog">CANCEL</v-btn>
           </v-card-actions>
         </v-card>
+        -->
       </v-dialog>
     </v-navigation-drawer>
     <v-content>
@@ -162,5 +199,8 @@ export default {
 }
 .no-shadow {
   box-shadow: none !important;
+}
+.dialog-container {
+  padding: 10px !important;
 }
 </style>
