@@ -36,10 +36,10 @@ import RadioButtonSample from '@/components/RadioButtonSample'
 import SelectSample from '@/components/SelectSample'
 import SliderSample from '@/components/SliderSample'
 import SwitchSample from '@/components/SwitchSample'
-
 import ButtonSample from '@/components/ButtonSample'
 import AlertSample from '@/components/AlertSample'
 import AvatarSample from '@/components/AvatarSample'
+import ProgressCircularSample from '@/components/ProgressCircularSample'
 import { mapGetters } from 'vuex'
 export default {
   components: {
@@ -53,7 +53,8 @@ export default {
     SwitchSample,
     ButtonSample,
     AlertSample,
-    AvatarSample
+    AvatarSample,
+    ProgressCircularSample
   },
   data() {
     return {
@@ -68,7 +69,8 @@ export default {
         SwitchSample,
         ButtonSample,
         AlertSample,
-        AvatarSample
+        AvatarSample,
+        ProgressCircularSample
       ],
       version: process.env.vuetifyVersion
     }
