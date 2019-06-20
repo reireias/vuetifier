@@ -20,7 +20,7 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.8.1",
     "vue-color": "^2.7.0",
-    "vuetify": "^1.5.5",
+    "vuetify": "^1.5.16",
     "vuetify-loader": "^1.2.1"
   },
   "devDependencies": {
