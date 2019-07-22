@@ -28,6 +28,7 @@
 
 <script>
 // Form Controls
+import { mapGetters } from 'vuex'
 import AutoCompleteSample from '@/components/AutoCompleteSample'
 import CheckBoxSample from '@/components/CheckBoxSample'
 import DatePickerSample from '@/components/DatePickerSample'
@@ -40,7 +41,6 @@ import ButtonSample from '@/components/ButtonSample'
 import AlertSample from '@/components/AlertSample'
 import AvatarSample from '@/components/AvatarSample'
 import ProgressCircularSample from '@/components/ProgressCircularSample'
-import { mapGetters } from 'vuex'
 export default {
   components: {
     AutoCompleteSample,

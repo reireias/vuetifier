@@ -109,7 +109,7 @@ export default {
   data() {
     return {
       drawer: true,
-      colors: colors,
+      colors,
       colorKeys: [
         'Primary',
         'Secondary',
