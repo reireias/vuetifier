@@ -5,8 +5,8 @@
         Theme
       </div>
       <link-buttons
-        document="https://vuetifyjs.com/en/components/hoge"
-        source="https://github.com/reireias/vuetifier/blob/master/components/hoge.vue"
+        document="https://vuetifyjs.com/en/customization/theme"
+        source="https://github.com/reireias/vuetifier/blob/master/components/Theme.vue"
       ></link-buttons>
     </v-flex>
     <v-flex text-center xs12>
