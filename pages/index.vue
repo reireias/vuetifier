@@ -17,6 +17,11 @@
     </v-layout>
 
     <v-layout row wrap>
+      <v-flex xs12>
+        <v-card height="100%">
+          <theme></theme>
+        </v-card>
+      </v-flex>
       <v-flex v-for="part in parts" :key="part.name" xs12 md6>
         <v-card height="100%">
           <component :is="part" class="component"></component>
@@ -29,32 +34,34 @@
 <script>
 // Form Controls
 import { mapGetters } from 'vuex'
+import AlertSample from '@/components/AlertSample'
 import AutoCompleteSample from '@/components/AutoCompleteSample'
+import AvatarSample from '@/components/AvatarSample'
+import ButtonSample from '@/components/ButtonSample'
 import CheckBoxSample from '@/components/CheckBoxSample'
 import DatePickerSample from '@/components/DatePickerSample'
 import FormsSample from '@/components/FormsSample'
+import ProgressCircularSample from '@/components/ProgressCircularSample'
 import RadioButtonSample from '@/components/RadioButtonSample'
 import SelectSample from '@/components/SelectSample'
 import SliderSample from '@/components/SliderSample'
 import SwitchSample from '@/components/SwitchSample'
-import ButtonSample from '@/components/ButtonSample'
-import AlertSample from '@/components/AlertSample'
-import AvatarSample from '@/components/AvatarSample'
-import ProgressCircularSample from '@/components/ProgressCircularSample'
+import Theme from '@/components/Theme'
 export default {
   components: {
+    AlertSample,
     AutoCompleteSample,
+    AvatarSample,
+    ButtonSample,
     CheckBoxSample,
     DatePickerSample,
     FormsSample,
+    ProgressCircularSample,
     RadioButtonSample,
     SelectSample,
     SliderSample,
     SwitchSample,
-    ButtonSample,
-    AlertSample,
-    AvatarSample,
-    ProgressCircularSample
+    Theme
   },
   data() {
     return {

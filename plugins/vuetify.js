@@ -8,8 +8,18 @@ Vue.use(Vuetify)
 export default ctx => {
   const vuetify = new Vuetify({
     theme: {
+      dark: false,
       themes: {
         light: {
+          primary: colors.blue.darken2,
+          accent: colors.pink.base,
+          secondary: colors.lightGreen.base,
+          info: colors.blue.base,
+          warning: colors.orange.base,
+          error: colors.red.base,
+          success: colors.green.base
+        },
+        dark: {
           primary: colors.blue.darken2,
           accent: colors.pink.base,
           secondary: colors.lightGreen.base,
