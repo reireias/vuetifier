@@ -1,6 +1,6 @@
 <template>
   <v-layout wrap align-center justify-center>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <div class="title-text display-2 font-weight-light">
         Radio Button
       </div>
@@ -9,7 +9,7 @@
         source="https://github.com/reireias/vuetifier/blob/master/components/RadioButtonSample.vue"
       ></link-buttons>
     </v-flex>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <v-radio-group v-model="radio" class="centered-radio" row>
         <v-radio
           v-for="(color, index) in colors"

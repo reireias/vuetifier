@@ -1,6 +1,6 @@
 <template>
   <v-layout wrap align-center justify-center>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <div class="title-text display-2 font-weight-light">
         Slider
       </div>
@@ -9,10 +9,10 @@
         source="https://github.com/reireias/vuetifier/blob/master/components/SliderSample.vue"
       ></link-buttons>
     </v-flex>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <v-slider value="50" label="Normal" :dark="dark"></v-slider>
     </v-flex>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <v-slider
         value="50"
         color="secondary"
@@ -21,7 +21,7 @@
         :dark="dark"
       ></v-slider>
     </v-flex>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <v-range-slider
         :value="[30, 60]"
         color="accent"

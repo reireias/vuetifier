@@ -1,6 +1,6 @@
 <template>
   <v-layout wrap align-center justify-center>
-    <v-flex text-xs-center xs12>
+    <v-flex text-center xs12>
       <div class="title-text display-2 font-weight-light">
         Select
       </div>
@@ -9,19 +9,24 @@
         source="https://github.com/reireias/vuetifier/blob/master/components/SelectSample.vue"
       ></link-buttons>
     </v-flex>
-    <v-flex text-xs-center xs6>
+    <v-flex text-center xs6>
       <v-select label="Standard" :items="items" :dark="dark"></v-select>
     </v-flex>
-    <v-flex text-xs-center xs6>
-      <v-select label="Box" :items="items" :dark="dark" box></v-select>
+    <v-flex text-center xs6>
+      <v-select label="Filled" :items="items" :dark="dark" filled></v-select>
     </v-flex>
-    <v-flex text-xs-center xs6>
-      <v-select label="Outline" :items="items" :dark="dark" outline></v-select>
+    <v-flex text-center xs6>
+      <v-select
+        label="Outlined"
+        :items="items"
+        :dark="dark"
+        outlined
+      ></v-select>
     </v-flex>
-    <v-flex text-xs-center xs6>
+    <v-flex text-center xs6>
       <v-select label="Solo" :items="items" :dark="dark" solo></v-select>
     </v-flex>
-    <v-flex text-xs-center xs6>
+    <v-flex text-center xs6>
       <v-select
         label="Multiple"
         :items="items"
@@ -29,7 +34,7 @@
         multiple
       ></v-select>
     </v-flex>
-    <v-flex text-xs-center xs6>
+    <v-flex text-center xs6>
       <v-select
         label="Multiple + Chips"
         :items="items"

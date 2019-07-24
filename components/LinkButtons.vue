@@ -2,7 +2,7 @@
   <div class="link-button-container">
     <v-btn
       class="link-button"
-      flat
+      text
       icon
       color="primary"
       :dark="dark"
@@ -13,7 +13,7 @@
     </v-btn>
     <v-btn
       class="link-button"
-      flat
+      text
       icon
       color="primary"
       :dark="dark"
