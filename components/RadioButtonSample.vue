@@ -1,7 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text display-2 font-weight-light">
+      <div class="title-text">
         Radio Button
       </div>
       <link-buttons

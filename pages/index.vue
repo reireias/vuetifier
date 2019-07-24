@@ -2,7 +2,7 @@
   <div>
     <v-layout column justify-center align-center style="margin-bottom: 20px;">
       <v-flex xs12>
-        <div class="primary--text title-text display-4 font-weight-light">
+        <div class="primary--text display-4 font-weight-light">
           Vuetifier
         </div>
       </v-flex>
@@ -19,7 +19,7 @@
     <v-layout row wrap>
       <v-flex xs12>
         <v-card height="100%">
-          <theme></theme>
+          <theme class="component"></theme>
         </v-card>
       </v-flex>
       <v-flex v-for="part in parts" :key="part.name" xs12 md6>
