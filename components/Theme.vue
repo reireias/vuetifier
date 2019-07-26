@@ -29,7 +29,9 @@
         offset-x
       >
         <template v-slot:activator="{ on }">
-          <v-btn :color="color.name" fab small v-on="on"></v-btn>
+          <v-btn :color="color.name" style="margin: 5px" v-on="on">{{
+            color.name
+          }}</v-btn>
         </template>
         <v-card>
           <v-color-picker
@@ -64,20 +66,45 @@ export default {
         {
           name: 'primary',
           menu: false,
-          value: '#ffffff'
+          value: null
         },
         {
           name: 'secondary',
           menu: false,
-          value: '#ffffff'
+          value: null
         },
         {
           name: 'accent',
           menu: false,
-          value: '#ffffff'
+          value: null
+        },
+        {
+          name: 'success',
+          menu: false,
+          value: null
+        },
+        {
+          name: 'info',
+          menu: false,
+          value: null
+        },
+        {
+          name: 'warning',
+          menu: false,
+          value: null
+        },
+        {
+          name: 'error',
+          menu: false,
+          value: null
         }
       ]
     }
+  },
+  mounted() {
+    this.colors.forEach(color => {
+      color.value = this.$vuetify.theme.themes.light[color.name]
+    })
   },
   methods: {
     themeChanged() {
@@ -98,5 +125,8 @@ export default {
 .centered-radio {
   align-items: center;
   display: inline-block;
+}
+.color-button {
+  margin: 5px;
 }
 </style>

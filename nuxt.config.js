@@ -1,4 +1,5 @@
 import pkg from './package'
+import colors from 'vuetify/es5/util/colors'
 
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
@@ -10,7 +11,7 @@ const routerBase =
     : {}
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   head: {
     title: pkg.name,
     meta: [
@@ -37,10 +38,34 @@ export default {
   },
   loading: { color: '#fff' },
   css: ['~/assets/style/app.styl'],
-  plugins: ['@/plugins/vuetify'],
+  plugins: [],
   modules: ['@nuxtjs/pwa'],
+  devModules: ['@nuxtjs/vuetify'],
+  vuetify: {
+    theme: {
+      themes: {
+        dark: {
+          primary: colors.blue.darken2,
+          accent: colors.pink.base,
+          secondary: colors.lightGreen.base,
+          info: colors.blue.base,
+          warning: colors.orange.base,
+          error: colors.red.base,
+          success: colors.green.base
+        },
+        light: {
+          primary: colors.blue.darken2,
+          accent: colors.pink.base,
+          secondary: colors.lightGreen.base,
+          info: colors.blue.base,
+          warning: colors.orange.base,
+          error: colors.red.base,
+          success: colors.green.base
+        }
+      }
+    }
+  },
   build: {
-    transpile: ['vuetify/lib'],
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
