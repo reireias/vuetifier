@@ -150,7 +150,7 @@ export default {
 <style>
 .centered-radio {
   align-items: center !important;
-  display: inline-block;
+  display: inline-block !important;
 }
 .color-button {
   margin: 5px;

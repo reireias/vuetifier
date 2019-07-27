@@ -39,6 +39,7 @@ import AutoCompleteSample from '@/components/AutoCompleteSample'
 import AvatarSample from '@/components/AvatarSample'
 import ButtonSample from '@/components/ButtonSample'
 import CheckBoxSample from '@/components/CheckBoxSample'
+import ColorPicker from '@/components/ColorPickerSample'
 import DatePickerSample from '@/components/DatePickerSample'
 import FormsSample from '@/components/FormsSample'
 import ProgressCircularSample from '@/components/ProgressCircularSample'
@@ -54,6 +55,7 @@ export default {
     AvatarSample,
     ButtonSample,
     CheckBoxSample,
+    ColorPicker,
     DatePickerSample,
     FormsSample,
     ProgressCircularSample,
@@ -66,6 +68,7 @@ export default {
   data() {
     return {
       parts: [
+        ColorPicker,
         AutoCompleteSample,
         CheckBoxSample,
         DatePickerSample,

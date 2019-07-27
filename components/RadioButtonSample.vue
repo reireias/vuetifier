@@ -45,7 +45,7 @@ export default {
 
 <style>
 .centered-radio {
+  display: inline-box !important;
   align-items: center !important;
-  display: inline-block;
 }
 </style>
