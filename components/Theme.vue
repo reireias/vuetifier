@@ -48,12 +48,29 @@
         </v-card>
       </v-menu>
     </v-flex>
+    <v-btn @click="random"><v-icon left>sync</v-icon>Random</v-btn>
+    <v-flex v-if="presets.length" text-center xs12 md6>
+      <v-expansion-panels>
+        <v-expansion-panel>
+          <v-expansion-panel-header>Color Presets</v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-layout wrap align-center justify-center>
+              <v-flex v-for="preset in presets" :key="preset" xs12>
+                <v-spacer></v-spacer>
+                <v-btn color="primary" outlined>apply</v-btn>
+              </v-flex>
+            </v-layout>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-flex>
   </v-layout>
 </template>
 
 <script>
 import { mapActions } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
+import allColors from '@/plugins/colors'
 export default {
   components: {
     LinkButtons
@@ -98,7 +115,9 @@ export default {
           menu: false,
           value: null
         }
-      ]
+      ],
+      // TODO: load from other file
+      presets: []
     }
   },
   mounted() {
@@ -115,6 +134,13 @@ export default {
       this.$vuetify.theme.themes.dark[color.name] = color.value
       this.$vuetify.theme.themes.light[color.name] = color.value
       color.menu = false
+    },
+    random() {
+      this.colors.forEach(color => {
+        const newColor = allColors[Math.floor(Math.random() * allColors.length)]
+        this.$vuetify.theme.themes.light[color.name] = newColor
+        this.$vuetify.theme.themes.dark[color.name] = newColor
+      })
     },
     ...mapActions(['setDark'])
   }
