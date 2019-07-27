@@ -149,7 +149,7 @@ export default {
 
 <style>
 .centered-radio {
-  align-items: center;
+  align-items: center !important;
   display: inline-block;
 }
 .color-button {
