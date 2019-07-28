@@ -76,6 +76,11 @@ export default {
   components: {
     LinkButtons
   },
+  data() {
+    return {
+      model: null
+    }
+  },
   computed: {
     ...mapGetters(['dark'])
   }
