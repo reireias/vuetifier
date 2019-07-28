@@ -12,7 +12,7 @@
     </v-flex>
     <v-flex text-center xs12>
       <center>
-        <v-card height="300" width="250">
+        <v-card height="200" width="250">
           <v-layout justify-center wrap>
             <v-btn color="primary" class="mt-12" @click="overlay = !overlay">
               Show Overlay
