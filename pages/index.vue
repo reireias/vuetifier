@@ -39,9 +39,10 @@ import AutoCompleteSample from '@/components/AutoCompleteSample'
 import AvatarSample from '@/components/AvatarSample'
 import ButtonSample from '@/components/ButtonSample'
 import CheckBoxSample from '@/components/CheckBoxSample'
-import ColorPicker from '@/components/ColorPickerSample'
+import ColorPickerSample from '@/components/ColorPickerSample'
 import DatePickerSample from '@/components/DatePickerSample'
 import FormsSample from '@/components/FormsSample'
+import OverlaySample from '@/components/OverlaySample'
 import ProgressCircularSample from '@/components/ProgressCircularSample'
 import RadioButtonSample from '@/components/RadioButtonSample'
 import SelectSample from '@/components/SelectSample'
@@ -55,9 +56,10 @@ export default {
     AvatarSample,
     ButtonSample,
     CheckBoxSample,
-    ColorPicker,
+    ColorPickerSample,
     DatePickerSample,
     FormsSample,
+    OverlaySample,
     ProgressCircularSample,
     RadioButtonSample,
     SelectSample,
@@ -68,7 +70,8 @@ export default {
   data() {
     return {
       parts: [
-        ColorPicker,
+        ColorPickerSample,
+        OverlaySample,
         AutoCompleteSample,
         CheckBoxSample,
         DatePickerSample,
