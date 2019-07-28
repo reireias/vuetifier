@@ -48,7 +48,16 @@
         </v-card>
       </v-menu>
     </v-flex>
-    <v-btn @click="random"><v-icon left>sync</v-icon>Random</v-btn>
+
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn v-on="on" @click="random"
+          ><v-icon left>sync</v-icon>Random</v-btn
+        >
+      </template>
+      <span>'R' key is same feature.</span>
+    </v-tooltip>
+
     <v-flex v-if="presets.length" text-center xs12 md6>
       <v-expansion-panels>
         <v-expansion-panel>
@@ -123,6 +132,11 @@ export default {
   mounted() {
     this.colors.forEach(color => {
       color.value = this.$vuetify.theme.themes.light[color.name]
+    })
+    window.addEventListener('keydown', e => {
+      if (e.key === 'r') {
+        this.random()
+      }
     })
   },
   methods: {
