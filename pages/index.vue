@@ -38,6 +38,7 @@ import AlertSample from '@/components/AlertSample'
 import AutoCompleteSample from '@/components/AutoCompleteSample'
 import AvatarSample from '@/components/AvatarSample'
 import ButtonSample from '@/components/ButtonSample'
+import CarouselSample from '@/components/CarouselSample'
 import CheckBoxSample from '@/components/CheckBoxSample'
 import ChipGroupSample from '@/components/ChipGroupSample'
 import ColorPickerSample from '@/components/ColorPickerSample'
@@ -57,6 +58,7 @@ export default {
     AutoCompleteSample,
     AvatarSample,
     ButtonSample,
+    CarouselSample,
     CheckBoxSample,
     ChipGroupSample,
     ColorPickerSample,
@@ -89,7 +91,8 @@ export default {
         ButtonSample,
         AlertSample,
         AvatarSample,
-        ProgressCircularSample
+        ProgressCircularSample,
+        CarouselSample
       ],
       version: process.env.vuetifyVersion
     }
