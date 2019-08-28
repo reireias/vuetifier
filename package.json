@@ -48,7 +48,7 @@
     "nodemon": "^1.18.9",
     "prettier": "^1.18.2",
     "push-dir": "^0.4.1",
-    "stylus": "^0.54.5",
+    "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "typescript": "^3.5.3",
     "vue-jest": "^4.0.0-0"
