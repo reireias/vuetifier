@@ -1,11 +1,7 @@
 <template>
-  <v-app>
-    <v-content>
-      <v-container fluid grid-list-md>
-        <nuxt />
-      </v-container>
-    </v-content>
-  </v-app>
+  <div>
+    <nuxt />
+  </div>
 </template>
 
 <script>

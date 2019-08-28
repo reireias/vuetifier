@@ -1,34 +1,43 @@
 <template>
-  <div>
-    <v-layout column justify-center align-center style="margin-bottom: 20px;">
-      <v-flex xs12>
-        <div class="primary--text display-4 font-weight-light">
-          Vuetifier
-        </div>
-      </v-flex>
-      <v-flex xs12>
-        <div class="accent--text title">
-          Vuetify UI component samples with theme color.
-        </div>
-      </v-flex>
-      <v-flex xs12>
-        <div class="title">Vuetify {{ version }}</div>
-      </v-flex>
-    </v-layout>
+  <v-app>
+    <v-content>
+      <v-container fluid grid-list-md>
+        <v-layout
+          column
+          justify-center
+          align-center
+          style="margin-bottom: 20px;"
+        >
+          <v-flex xs12>
+            <div class="primary--text display-4 font-weight-light">
+              Vuetifier
+            </div>
+          </v-flex>
+          <v-flex xs12>
+            <div class="accent--text title">
+              Vuetify UI component samples with theme color.
+            </div>
+          </v-flex>
+          <v-flex xs12>
+            <div class="title">Vuetify {{ version }}</div>
+          </v-flex>
+        </v-layout>
 
-    <v-layout row wrap>
-      <v-flex xs12>
-        <v-card height="100%">
-          <theme class="component"></theme>
-        </v-card>
-      </v-flex>
-      <v-flex v-for="part in parts" :key="part.name" xs12 md6>
-        <v-card height="100%">
-          <component :is="part" class="component"></component>
-        </v-card>
-      </v-flex>
-    </v-layout>
-  </div>
+        <v-layout row wrap>
+          <v-flex xs12>
+            <v-card height="100%">
+              <theme class="component"></theme>
+            </v-card>
+          </v-flex>
+          <v-flex v-for="part in parts" :key="part.name" xs12 md6>
+            <v-card height="100%">
+              <component :is="part" class="component"></component>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
