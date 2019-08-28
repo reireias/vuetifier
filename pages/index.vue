@@ -33,7 +33,6 @@
 
 <script>
 // Form Controls
-import { mapGetters } from 'vuex'
 import AlertSample from '@/components/AlertSample'
 import AutoCompleteSample from '@/components/AutoCompleteSample'
 import AvatarSample from '@/components/AvatarSample'
@@ -96,9 +95,6 @@ export default {
       ],
       version: process.env.vuetifyVersion
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

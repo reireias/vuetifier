@@ -30,7 +30,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -41,9 +40,6 @@ export default {
       absolute: true,
       overlay: false
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

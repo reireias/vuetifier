@@ -49,7 +49,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -70,9 +69,6 @@ export default {
         v => /.+@.+/.test(v) || 'E-mail must be valid'
       ]
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

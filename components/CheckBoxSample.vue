@@ -17,7 +17,7 @@
             :input-value="true"
             :color="color"
             :label="color"
-            :dark="dark"
+            :dark="$vuetify.theme.dark"
           ></v-checkbox>
         </v-flex>
       </v-layout>
@@ -26,7 +26,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -36,9 +35,6 @@ export default {
     return {
       colors: ['primary', 'secondary', 'accent']
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

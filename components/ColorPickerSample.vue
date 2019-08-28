@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -35,9 +34,6 @@ export default {
       color1: '#ffffff',
       color2: '#ffffff'
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   },
   mounted() {
     this.color1 = this.$vuetify.theme.themes.light.primary

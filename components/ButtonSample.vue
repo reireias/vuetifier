@@ -10,34 +10,38 @@
       ></link-buttons>
     </v-flex>
     <v-flex text-center xs12>
-      <v-btn color="primary" :dark="dark">primary</v-btn>
-      <v-btn color="secondary" :dark="dark">secondary</v-btn>
-      <v-btn color="accent" :dark="dark">accent</v-btn>
+      <v-btn color="primary" :dark="$vuetify.theme.dark">primary</v-btn>
+      <v-btn color="secondary" :dark="$vuetify.theme.dark">secondary</v-btn>
+      <v-btn color="accent" :dark="$vuetify.theme.dark">accent</v-btn>
     </v-flex>
     <v-flex text-center xs12>
-      <v-btn color="primary" :dark="dark" outlined>primary</v-btn>
-      <v-btn color="secondary" :dark="dark" outlined>secondary</v-btn>
-      <v-btn color="accent" :dark="dark" outlined>accent</v-btn>
+      <v-btn color="primary" :dark="$vuetify.theme.dark" outlined
+        >primary</v-btn
+      >
+      <v-btn color="secondary" :dark="$vuetify.theme.dark" outlined
+        >secondary</v-btn
+      >
+      <v-btn color="accent" :dark="$vuetify.theme.dark" outlined>accent</v-btn>
     </v-flex>
     <v-flex text-center xs12>
-      <v-btn color="primary" :dark="dark" fab>
+      <v-btn color="primary" :dark="$vuetify.theme.dark" fab>
         <v-icon>email</v-icon>
       </v-btn>
-      <v-btn color="secondary" :dark="dark" fab>
+      <v-btn color="secondary" :dark="$vuetify.theme.dark" fab>
         <v-icon>email</v-icon>
       </v-btn>
-      <v-btn color="accent" :dark="dark" fab>
+      <v-btn color="accent" :dark="$vuetify.theme.dark" fab>
         <v-icon>email</v-icon>
       </v-btn>
     </v-flex>
     <v-flex text-center xs12>
-      <v-btn color="primary" :dark="dark" fab outlined>
+      <v-btn color="primary" :dark="$vuetify.theme.dark" fab outlined>
         <v-icon>email</v-icon>
       </v-btn>
-      <v-btn color="secondary" :dark="dark" fab outlined>
+      <v-btn color="secondary" :dark="$vuetify.theme.dark" fab outlined>
         <v-icon>email</v-icon>
       </v-btn>
-      <v-btn color="accent" :dark="dark" fab outlined>
+      <v-btn color="accent" :dark="$vuetify.theme.dark" fab outlined>
         <v-icon>email</v-icon>
       </v-btn>
     </v-flex>
@@ -45,14 +49,10 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
     LinkButtons
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

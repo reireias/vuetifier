@@ -17,7 +17,7 @@
           :value="index"
           :label="color"
           :color="color"
-          :dark="dark"
+          :dark="$vuetify.theme.dark"
         ></v-radio>
       </v-radio-group>
     </v-flex>
@@ -25,7 +25,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -36,9 +35,6 @@ export default {
       colors: ['primary', 'secondary', 'accent'],
       radio: 0
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

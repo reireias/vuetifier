@@ -42,7 +42,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -53,9 +52,6 @@ export default {
       interval: {},
       value: 0
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   },
   beforeDestroy() {
     clearInterval(this.interval)

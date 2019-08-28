@@ -36,7 +36,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -46,9 +45,6 @@ export default {
     return {
       chips: ['Javascript', 'Go', 'Python', 'Ruby', 'Swift', 'Kotolin']
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

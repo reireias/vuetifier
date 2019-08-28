@@ -77,7 +77,6 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 import allColors from '@/plugins/colors'
 export default {
@@ -142,7 +141,6 @@ export default {
   methods: {
     themeChanged() {
       this.$vuetify.theme.dark = this.dark
-      this.setDark(this.dark)
     },
     setColor(color) {
       this.$vuetify.theme.themes.dark[color.name] = color.value
@@ -155,8 +153,7 @@ export default {
         this.$vuetify.theme.themes.light[color.name] = newColor
         this.$vuetify.theme.themes.dark[color.name] = newColor
       })
-    },
-    ...mapActions(['setDark'])
+    }
   }
 }
 </script>

@@ -13,14 +13,13 @@
       <v-date-picker
         v-model="picker"
         header-color="primary"
-        :dark="dark"
+        :dark="$vuetify.theme.dark"
       ></v-date-picker>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -30,9 +29,6 @@ export default {
     return {
       picker: new Date().toISOString().substr(0, 10)
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

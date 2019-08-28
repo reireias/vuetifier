@@ -5,7 +5,7 @@
       text
       icon
       color="primary"
-      :dark="dark"
+      :dark="$vuetify.theme.dark"
       :href="document"
       target="_blank"
     >
@@ -16,7 +16,7 @@
       text
       icon
       color="primary"
-      :dark="dark"
+      :dark="$vuetify.theme.dark"
       :href="source"
       target="_blank"
     >
@@ -26,7 +26,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 export default {
   props: {
     document: {
@@ -37,9 +36,6 @@ export default {
       type: String,
       default: ''
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

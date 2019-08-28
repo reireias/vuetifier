@@ -14,7 +14,7 @@
         <img src="Octocat.png" alt="image" />
       </v-avatar>
       <v-avatar color="primary">
-        <v-icon :dark="dark">account_circle</v-icon>
+        <v-icon :dark="$vuetify.theme.dark">account_circle</v-icon>
       </v-avatar>
       <v-avatar color="secondary">
         <span class="white--text headline">C</span>
@@ -27,14 +27,10 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
     LinkButtons
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

@@ -10,27 +10,41 @@
       ></link-buttons>
     </v-flex>
     <v-flex text-center xs6>
-      <v-select label="Standard" :items="items" :dark="dark"></v-select>
+      <v-select
+        label="Standard"
+        :items="items"
+        :dark="$vuetify.theme.dark"
+      ></v-select>
     </v-flex>
     <v-flex text-center xs6>
-      <v-select label="Filled" :items="items" :dark="dark" filled></v-select>
+      <v-select
+        label="Filled"
+        :items="items"
+        :dark="$vuetify.theme.dark"
+        filled
+      ></v-select>
     </v-flex>
     <v-flex text-center xs6>
       <v-select
         label="Outlined"
         :items="items"
-        :dark="dark"
+        :dark="$vuetify.theme.dark"
         outlined
       ></v-select>
     </v-flex>
     <v-flex text-center xs6>
-      <v-select label="Solo" :items="items" :dark="dark" solo></v-select>
+      <v-select
+        label="Solo"
+        :items="items"
+        :dark="$vuetify.theme.dark"
+        solo
+      ></v-select>
     </v-flex>
     <v-flex text-center xs6>
       <v-select
         label="Multiple"
         :items="items"
-        :dark="dark"
+        :dark="$vuetify.theme.dark"
         multiple
       ></v-select>
     </v-flex>
@@ -38,7 +52,7 @@
       <v-select
         label="Multiple + Chips"
         :items="items"
-        :dark="dark"
+        :dark="$vuetify.theme.dark"
         multiple
         chips
       ></v-select>
@@ -47,7 +61,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
@@ -57,9 +70,6 @@ export default {
     return {
       items: ['Alice', 'Bob', 'Carol']
     }
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>

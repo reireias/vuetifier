@@ -10,7 +10,11 @@
       ></link-buttons>
     </v-flex>
     <v-flex text-center xs12>
-      <v-slider value="50" label="Normal" :dark="dark"></v-slider>
+      <v-slider
+        value="50"
+        label="Normal"
+        :dark="$vuetify.theme.dark"
+      ></v-slider>
     </v-flex>
     <v-flex text-center xs12>
       <v-slider
@@ -18,7 +22,7 @@
         color="secondary"
         prepend-icon="volume_down"
         append-icon="volume_up"
-        :dark="dark"
+        :dark="$vuetify.theme.dark"
       ></v-slider>
     </v-flex>
     <v-flex text-center xs12>
@@ -32,14 +36,10 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
     LinkButtons
-  },
-  computed: {
-    ...mapGetters(['dark'])
   }
 }
 </script>
