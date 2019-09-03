@@ -108,7 +108,7 @@ export default {
   css: ['~/assets/style/app.styl'],
   plugins: [],
   modules: ['@nuxtjs/pwa'],
-  devModules: ['@nuxtjs/vuetify'],
+  buildModules: ['@nuxtjs/vuetify'],
   vuetify: {
     theme: {
       themes: {
