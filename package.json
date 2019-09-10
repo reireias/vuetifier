@@ -45,7 +45,7 @@
     "http-server": "^0.11.1",
     "jest": "^24.1.0",
     "jest-canvas-mock": "^2.1.1",
-    "nodemon": "^1.18.9",
+    "nodemon": "^1.19.2",
     "prettier": "^1.18.2",
     "push-dir": "^0.4.1",
     "stylus": "^0.54.7",
