@@ -11,6 +11,7 @@
     </v-flex>
     <v-flex text-center xs12>
       <v-date-picker
+        v-if="!test"
         v-model="picker"
         header-color="primary"
         :dark="$vuetify.theme.dark"
@@ -27,7 +28,8 @@ export default {
   },
   data() {
     return {
-      picker: new Date().toISOString().substr(0, 10)
+      picker: new Date().toISOString().substr(0, 10),
+      test: process.env.NODE_ENV === 'test'
     }
   }
 }
