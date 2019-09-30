@@ -25,7 +25,7 @@
   "devDependencies": {
     "@mdi/font": "^4.4.95",
     "@nuxtjs/eslint-config": "^1.1.2",
-    "@nuxtjs/vuetify": "^1.8.5",
+    "@nuxtjs/vuetify": "^1.8.6",
     "@vue/test-utils": "^1.0.0-beta.27",
     "@yarnpkg/lockfile": "^1.1.0",
     "babel-eslint": "^10.0.3",
