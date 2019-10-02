@@ -3,7 +3,7 @@
 exports[`index should be vue instance 1`] = `
 "<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
       Autocomplete
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/autocompletes\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/AutoCompleteSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-autocomplete-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"States\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/autocompletes\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/AutoCompleteSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-autocomplete-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"States\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
