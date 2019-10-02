@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index should be vue instance 1`] = `"<div class=\\"link-button-container\\"><v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" href=\\"\\" target=\\"_blank\\" icon=\\"true\\" text=\\"true\\" type=\\"button\\" class=\\"link-button\\"><v-icon-stub>description</v-icon-stub></v-btn-stub> <v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" href=\\"\\" target=\\"_blank\\" icon=\\"true\\" text=\\"true\\" type=\\"button\\" class=\\"link-button\\"><v-icon-stub>code</v-icon-stub></v-btn-stub></div>"`;

@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index should be vue instance 1`] = `
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+      Select
+    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/selects\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SelectSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"Standard\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"Filled\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" filled=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"Outlined\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"Solo\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" solo=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$vuetify.icons.dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple + Chips\\" loaderheight=\\"2\\" clearicon=\\"$vuetify.icons.clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" nodatatext=\\"$vuetify.noDataText\\" chips=\\"true\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub></v-flex-stub></v-layout-stub>"
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index should be vue instance 1`] = `
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+      Progress Circular
+    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/progress\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/ProgressCircularSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-progress-circular-stub color=\\"primary\\" rotate=\\"360\\" size=\\"100\\" width=\\"15\\" value=\\"0\\">
+      0
+    </v-progress-circular-stub> <v-progress-circular-stub color=\\"secondary\\" rotate=\\"-90\\" size=\\"100\\" width=\\"15\\" value=\\"0\\">
+      0
+    </v-progress-circular-stub> <v-progress-circular-stub color=\\"accent\\" rotate=\\"90\\" size=\\"100\\" width=\\"15\\" value=\\"0\\">
+      0
+    </v-progress-circular-stub></v-flex-stub></v-layout-stub>"
+`;

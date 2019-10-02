@@ -11,8 +11,7 @@
     </v-flex>
     <v-flex text-center xs12>
       <v-date-picker
-        v-if="!test"
-        v-model="picker"
+        v-model="value"
         header-color="primary"
         :dark="$vuetify.theme.dark"
       ></v-date-picker>
@@ -26,10 +25,11 @@ export default {
   components: {
     LinkButtons
   },
-  data() {
-    return {
-      picker: new Date().toISOString().substr(0, 10),
-      test: process.env.NODE_ENV === 'test'
+  props: {
+    value: {
+      type: String,
+      default: new Date().toISOString().substr(0, 10),
+      required: false
     }
   }
 }

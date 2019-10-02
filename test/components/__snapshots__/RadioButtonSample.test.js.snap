@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index should be vue instance 1`] = `
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+      Radio Button
+    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/radios\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/RadioButtonSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-radio-group-stub valuecomparator=\\"function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}\\" value=\\"0\\" activeclass=\\"v-item--active\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" height=\\"auto\\" column=\\"true\\" row=\\"true\\" class=\\"centered-radio\\"><v-radio-stub color=\\"primary\\" ripple=\\"true\\" label=\\"primary\\" officon=\\"$vuetify.icons.radioOff\\" onicon=\\"$vuetify.icons.radioOn\\" value=\\"0\\"></v-radio-stub><v-radio-stub color=\\"secondary\\" ripple=\\"true\\" label=\\"secondary\\" officon=\\"$vuetify.icons.radioOff\\" onicon=\\"$vuetify.icons.radioOn\\" value=\\"1\\"></v-radio-stub><v-radio-stub color=\\"accent\\" ripple=\\"true\\" label=\\"accent\\" officon=\\"$vuetify.icons.radioOff\\" onicon=\\"$vuetify.icons.radioOn\\" value=\\"2\\"></v-radio-stub></v-radio-group-stub></v-flex-stub></v-layout-stub>"
+`;

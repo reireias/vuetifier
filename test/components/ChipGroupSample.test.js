@@ -1,7 +1,7 @@
 import { shallowMount, createLocalVue } from '@vue/test-utils'
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import target from '@/pages/index'
+import target from '@/components/ChipGroupSample'
 
 Vue.use(Vuetify)
 const localVue = createLocalVue()
