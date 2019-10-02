@@ -57,6 +57,7 @@ import OverlaySample from '@/components/OverlaySample'
 import ProgressCircularSample from '@/components/ProgressCircularSample'
 import RadioButtonSample from '@/components/RadioButtonSample'
 import SelectSample from '@/components/SelectSample'
+import SkeletonLoaderSample from '@/components/SkeletonLoaderSample'
 import SlideGroupSample from '@/components/SlideGroupSample'
 import SliderSample from '@/components/SliderSample'
 import SwitchSample from '@/components/SwitchSample'
@@ -78,6 +79,7 @@ export default {
     ProgressCircularSample,
     RadioButtonSample,
     SelectSample,
+    SkeletonLoaderSample,
     SlideGroupSample,
     SliderSample,
     SwitchSample,
@@ -91,6 +93,7 @@ export default {
         OverlaySample,
         ChipGroupSample,
         LazySample,
+        SkeletonLoaderSample,
         AutoCompleteSample,
         CheckBoxSample,
         DatePickerSample,
