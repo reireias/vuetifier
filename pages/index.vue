@@ -52,6 +52,7 @@ import ChipGroupSample from '@/components/ChipGroupSample'
 import ColorPickerSample from '@/components/ColorPickerSample'
 import DatePickerSample from '@/components/DatePickerSample'
 import FormsSample from '@/components/FormsSample'
+import LazySample from '@/components/LazySample'
 import OverlaySample from '@/components/OverlaySample'
 import ProgressCircularSample from '@/components/ProgressCircularSample'
 import RadioButtonSample from '@/components/RadioButtonSample'
@@ -72,6 +73,7 @@ export default {
     ColorPickerSample,
     DatePickerSample,
     FormsSample,
+    LazySample,
     OverlaySample,
     ProgressCircularSample,
     RadioButtonSample,
@@ -88,6 +90,7 @@ export default {
         SlideGroupSample,
         OverlaySample,
         ChipGroupSample,
+        LazySample,
         AutoCompleteSample,
         CheckBoxSample,
         DatePickerSample,
