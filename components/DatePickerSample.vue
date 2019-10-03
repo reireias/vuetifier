@@ -28,7 +28,12 @@ export default {
   props: {
     value: {
       type: String,
-      default: new Date().toISOString().substr(0, 10),
+      default: (process.env.NODE_ENV !== 'test'
+        ? new Date()
+        : new Date('2019-01-01')
+      )
+        .toISOString()
+        .substr(0, 10),
       required: false
     }
   }
