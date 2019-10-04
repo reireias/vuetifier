@@ -107,16 +107,14 @@ export default {
   loading: { color: '#fff' },
   css: ['~/assets/style/app.styl'],
   plugins: [],
-  modules: [
-    '@nuxtjs/pwa',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-149343004-1'
-      }
-    ]
-  ],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/google-analytics'],
   buildModules: ['@nuxtjs/vuetify'],
+  googleAnalytics: {
+    id: 'UA-149343004-1',
+    debug: {
+      sendHitTask: true
+    }
+  },
   vuetify: {
     theme: {
       themes: {
