@@ -1,7 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\"><v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
+      <v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
       Skeleton loader
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/skeleton-loaders\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SkeletonLoader.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-sheet-stub color=\\"grey lighten-4\\" tag=\\"div\\" class=\\"px-3 pt-3 pb-3\\"><v-skeleton-loader-stub maxwidth=\\"300\\" type=\\"card\\" types=\\"[object Object]\\" class=\\"mx-auto\\"></v-skeleton-loader-stub></v-sheet-stub></v-flex-stub></v-layout-stub>"
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/skeleton-loaders\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SkeletonLoader.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-sheet-stub color=\\"grey lighten-4\\" tag=\\"div\\" class=\\"px-3 pt-3 pb-3\\">
+      <v-skeleton-loader-stub maxwidth=\\"300\\" type=\\"card\\" types=\\"[object Object]\\" class=\\"mx-auto\\"></v-skeleton-loader-stub>
+    </v-sheet-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

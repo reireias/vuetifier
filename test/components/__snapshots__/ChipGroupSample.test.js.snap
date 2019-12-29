@@ -1,7 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\"><v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
+      <v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
       Chip Group
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/chip-groups\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/ChipGroupSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-chip-group-stub activeclass=\\"primary--text\\" multiple=\\"true\\" nexticon=\\"$next\\" mobilebreakpoint=\\"1264\\" previcon=\\"$prev\\" column=\\"true\\" class=\\"chip-group\\"><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Javascript</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Go</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Python</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Ruby</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Swift</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Kotolin</v-chip-stub></v-chip-group-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-chip-group-stub activeclass=\\"primary--text\\" multiple=\\"true\\" nexticon=\\"$next\\" mobilebreakpoint=\\"1264\\" previcon=\\"$prev\\" column=\\"true\\" class=\\"chip-group\\"><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Javascript</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Go</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Python</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Ruby</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Swift</v-chip-stub><v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Kotolin</v-chip-stub></v-chip-group-stub></v-flex-stub></v-layout-stub>"
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/chip-groups\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/ChipGroupSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-chip-group-stub activeclass=\\"primary--text\\" multiple=\\"true\\" nexticon=\\"$next\\" mobilebreakpoint=\\"1264\\" previcon=\\"$prev\\" column=\\"true\\" class=\\"chip-group\\">
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Javascript</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Go</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Python</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Ruby</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Swift</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Kotolin</v-chip-stub>
+    </v-chip-group-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-chip-group-stub activeclass=\\"primary--text\\" multiple=\\"true\\" nexticon=\\"$next\\" mobilebreakpoint=\\"1264\\" previcon=\\"$prev\\" column=\\"true\\" class=\\"chip-group\\">
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Javascript</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Go</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Python</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Ruby</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Swift</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Kotolin</v-chip-stub>
+    </v-chip-group-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

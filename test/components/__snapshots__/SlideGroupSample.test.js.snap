@@ -1,7 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\"><v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
+      <v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
       Slide Group
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/slide-groups\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SlideGroupSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-slide-group-stub activeclass=\\"v-slide-item--active\\" multiple=\\"true\\" nexticon=\\"$next\\" mobilebreakpoint=\\"1264\\" previcon=\\"$prev\\" showarrows=\\"true\\"><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub></v-slide-group-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-sheet-stub elevation=\\"8\\" maxwidth=\\"800\\" tag=\\"div\\" class=\\"mx-auto\\"><v-slide-group-stub activeclass=\\"v-slide-item--active\\" nexticon=\\"mdi-plus\\" mobilebreakpoint=\\"1264\\" previcon=\\"mdi-minus\\" showarrows=\\"true\\" class=\\"pa-4\\"><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub><v-slide-item-stub></v-slide-item-stub></v-slide-group-stub></v-sheet-stub></v-flex-stub></v-layout-stub>"
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/slide-groups\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SlideGroupSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-slide-group-stub activeclass=\\"v-slide-item--active\\" multiple=\\"true\\" nexticon=\\"$next\\" mobilebreakpoint=\\"1264\\" previcon=\\"$prev\\" showarrows=\\"true\\">
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+      <v-slide-item-stub></v-slide-item-stub>
+    </v-slide-group-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-sheet-stub elevation=\\"8\\" maxwidth=\\"800\\" tag=\\"div\\" class=\\"mx-auto\\">
+      <v-slide-group-stub activeclass=\\"v-slide-item--active\\" nexticon=\\"mdi-plus\\" mobilebreakpoint=\\"1264\\" previcon=\\"mdi-minus\\" showarrows=\\"true\\" class=\\"pa-4\\">
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+        <v-slide-item-stub></v-slide-item-stub>
+      </v-slide-group-stub>
+    </v-sheet-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

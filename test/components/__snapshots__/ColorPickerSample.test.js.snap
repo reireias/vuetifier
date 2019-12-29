@@ -1,7 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\"><v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
+      <v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
       Color Picker
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/color-pickers\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/ColorPickerSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\" md6=\\"\\"><center><v-color-picker-stub canvasheight=\\"150\\" dotsize=\\"10\\" mode=\\"rgba\\" swatchesmaxheight=\\"150\\" value=\\"#ffffff\\" width=\\"300\\"></v-color-picker-stub></center></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\" md6=\\"\\"><center><v-color-picker-stub canvasheight=\\"150\\" dotsize=\\"10\\" mode=\\"rgba\\" showswatches=\\"true\\" swatchesmaxheight=\\"150\\" value=\\"#ffffff\\" width=\\"300\\"></v-color-picker-stub></center></v-flex-stub></v-layout-stub>"
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/color-pickers\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/ColorPickerSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\" md6=\\"\\">
+    <center>
+      <v-color-picker-stub canvasheight=\\"150\\" dotsize=\\"10\\" mode=\\"rgba\\" swatchesmaxheight=\\"150\\" value=\\"#ffffff\\" width=\\"300\\"></v-color-picker-stub>
+    </center>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\" md6=\\"\\">
+    <center>
+      <v-color-picker-stub canvasheight=\\"150\\" dotsize=\\"10\\" mode=\\"rgba\\" showswatches=\\"true\\" swatchesmaxheight=\\"150\\" value=\\"#ffffff\\" width=\\"300\\"></v-color-picker-stub>
+    </center>
+  </v-flex-stub>
+</v-layout-stub>"
 `;
