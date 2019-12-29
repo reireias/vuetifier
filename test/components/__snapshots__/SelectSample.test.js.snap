@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
       Select
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/selects\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SelectSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Standard\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/selects\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SelectSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\">
+    <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Standard\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -26,7 +32,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Filled\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" filled=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\">
+    <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Filled\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" filled=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -49,7 +58,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Outlined\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\">
+    <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Outlined\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -72,7 +84,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Solo\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" solo=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\">
+    <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Solo\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" solo=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -95,7 +110,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\">
+    <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -118,7 +136,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\"><v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple + Chips\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs6=\\"\\">
+    <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple + Chips\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -141,5 +162,7 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" nodatatext=\\"$vuetify.noDataText\\" chips=\\"true\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub></v-flex-stub></v-layout-stub>"
+}\\" nodatatext=\\"$vuetify.noDataText\\" chips=\\"true\\" items=\\"Alice,Bob,Carol\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

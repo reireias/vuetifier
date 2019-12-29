@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
       Switch
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/selection-controls#switches-boolean\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SwitchSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs8=\\"\\" offset-xs4=\\"\\"><v-switch-stub color=\\"primary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" value=\\"true\\" backgroundcolor=\\"\\" label=\\"Primary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/selection-controls#switches-boolean\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SwitchSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs8=\\"\\" offset-xs4=\\"\\">
+    <v-switch-stub color=\\"primary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"Primary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -26,7 +32,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\"></v-switch-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs8=\\"\\" offset-xs4=\\"\\"><v-switch-stub color=\\"secondary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" value=\\"true\\" backgroundcolor=\\"\\" label=\\"Secondary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" inputvalue=\\"true\\"></v-switch-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs8=\\"\\" offset-xs4=\\"\\">
+    <v-switch-stub color=\\"secondary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"Secondary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -49,7 +58,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\"></v-switch-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs8=\\"\\" offset-xs4=\\"\\"><v-switch-stub color=\\"accent\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" value=\\"true\\" backgroundcolor=\\"\\" label=\\"Accent\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" inputvalue=\\"true\\"></v-switch-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs8=\\"\\" offset-xs4=\\"\\">
+    <v-switch-stub color=\\"accent\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"Accent\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -72,5 +84,7 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\"></v-switch-stub></v-flex-stub></v-layout-stub>"
+}\\" inputvalue=\\"true\\"></v-switch-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

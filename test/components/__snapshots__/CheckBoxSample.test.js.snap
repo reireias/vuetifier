@@ -1,9 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
       Checkbox
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/checkboxes\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/CheckBoxSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-layout-stub tag=\\"div\\" align-center=\\"\\" justify-cente=\\"\\"><v-flex-stub tag=\\"div\\" xs4=\\"\\"><v-checkbox-stub color=\\"primary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"primary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/checkboxes\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/CheckBoxSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-layout-stub tag=\\"div\\" align-center=\\"\\" justify-cente=\\"\\">
+      <v-flex-stub tag=\\"div\\" xs4=\\"\\">
+        <v-checkbox-stub color=\\"primary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"primary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -26,7 +34,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" inputvalue=\\"true\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\" class=\\"centered-checkbox\\"></v-checkbox-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs4=\\"\\"><v-checkbox-stub color=\\"secondary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"secondary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" inputvalue=\\"true\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\" class=\\"centered-checkbox\\"></v-checkbox-stub>
+      </v-flex-stub>
+      <v-flex-stub tag=\\"div\\" xs4=\\"\\">
+        <v-checkbox-stub color=\\"secondary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"secondary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -49,7 +60,10 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" inputvalue=\\"true\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\" class=\\"centered-checkbox\\"></v-checkbox-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs4=\\"\\"><v-checkbox-stub color=\\"accent\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"accent\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
+}\\" inputvalue=\\"true\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\" class=\\"centered-checkbox\\"></v-checkbox-stub>
+      </v-flex-stub>
+      <v-flex-stub tag=\\"div\\" xs4=\\"\\">
+        <v-checkbox-stub color=\\"accent\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"accent\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
   if (a instanceof Date &amp;&amp; b instanceof Date) {
@@ -72,5 +86,9 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" inputvalue=\\"true\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\" class=\\"centered-checkbox\\"></v-checkbox-stub></v-flex-stub></v-layout-stub></v-flex-stub></v-layout-stub>"
+}\\" inputvalue=\\"true\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\" class=\\"centered-checkbox\\"></v-checkbox-stub>
+      </v-flex-stub>
+    </v-layout-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

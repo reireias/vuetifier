@@ -1,7 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\">
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
       Avatar
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/avatars\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/AvatarSample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><v-avatar-stub size=\\"48\\"><img src=\\"Octocat.png\\" alt=\\"image\\"></v-avatar-stub> <v-avatar-stub color=\\"primary\\" size=\\"48\\"><v-icon-stub>account_circle</v-icon-stub></v-avatar-stub> <v-avatar-stub color=\\"secondary\\" size=\\"48\\"><span class=\\"white--text headline\\">C</span></v-avatar-stub> <v-avatar-stub color=\\"accent\\" size=\\"48\\"><span class=\\"white--text headline\\">J</span></v-avatar-stub></v-flex-stub></v-layout-stub>"
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/avatars\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/AvatarSample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <v-avatar-stub size=\\"48\\"><img src=\\"Octocat.png\\" alt=\\"image\\"></v-avatar-stub>
+    <v-avatar-stub color=\\"primary\\" size=\\"48\\">
+      <v-icon-stub>account_circle</v-icon-stub>
+    </v-avatar-stub>
+    <v-avatar-stub color=\\"secondary\\" size=\\"48\\"><span class=\\"white--text headline\\">C</span></v-avatar-stub>
+    <v-avatar-stub color=\\"accent\\" size=\\"48\\"><span class=\\"white--text headline\\">J</span></v-avatar-stub>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

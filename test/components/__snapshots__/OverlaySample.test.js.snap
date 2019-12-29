@@ -1,11 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\"><v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><div class=\\"title-text\\"><v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <div class=\\"title-text\\">
+      <v-icon-stub large=\\"\\" color=\\"accent\\">fiber_new</v-icon-stub>
       Overlay
-    </div> <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/overlays\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/OverlaySample.vue\\"></link-buttons-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\"><center><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"200\\" width=\\"250\\"><v-layout-stub tag=\\"div\\" justify-center=\\"\\" wrap=\\"\\"><v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\" class=\\"mt-12\\">
+    </div>
+    <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/overlays\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/OverlaySample.vue\\"></link-buttons-stub>
+  </v-flex-stub>
+  <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
+    <center>
+      <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"200\\" width=\\"250\\">
+        <v-layout-stub tag=\\"div\\" justify-center=\\"\\" wrap=\\"\\">
+          <v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\" class=\\"mt-12\\">
             Show Overlay
-          </v-btn-stub> <v-overlay-stub color=\\"#212121\\" dark=\\"true\\" absolute=\\"true\\" opacity=\\"0.46\\" zindex=\\"5\\"><v-btn-stub color=\\"secondary\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\">
+          </v-btn-stub>
+          <v-overlay-stub color=\\"#212121\\" dark=\\"true\\" absolute=\\"true\\" opacity=\\"0.46\\" zindex=\\"5\\">
+            <v-btn-stub color=\\"secondary\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\">
               Hide Overlay
-            </v-btn-stub></v-overlay-stub></v-layout-stub></v-card-stub></center></v-flex-stub></v-layout-stub>"
+            </v-btn-stub>
+          </v-overlay-stub>
+        </v-layout-stub>
+      </v-card-stub>
+    </center>
+  </v-flex-stub>
+</v-layout-stub>"
 `;

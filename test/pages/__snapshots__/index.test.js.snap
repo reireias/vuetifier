@@ -1,9 +1,127 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-app-stub id=\\"app\\"><v-content-stub tag=\\"main\\"><v-container-stub tag=\\"div\\" fluid=\\"true\\" grid-list-md=\\"\\"><v-layout-stub tag=\\"div\\" column=\\"\\" justify-center=\\"\\" align-center=\\"\\"><v-flex-stub tag=\\"div\\" xs12=\\"\\"><div class=\\"primary--text display-4 font-weight-light\\">
+"<v-app-stub id=\\"app\\">
+  <v-content-stub tag=\\"main\\">
+    <v-container-stub tag=\\"div\\" fluid=\\"true\\" grid-list-md=\\"\\">
+      <v-layout-stub tag=\\"div\\" column=\\"\\" justify-center=\\"\\" align-center=\\"\\">
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\">
+          <div class=\\"primary--text display-4 font-weight-light\\">
             Vuetifier
-          </div></v-flex-stub> <v-flex-stub tag=\\"div\\" xs12=\\"\\"><div class=\\"accent--text title\\">
+          </div>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\">
+          <div class=\\"accent--text title\\">
             Vuetify UI component samples with theme color.
-          </div></v-flex-stub> <v-flex-stub tag=\\"div\\" xs12=\\"\\"><div class=\\"title\\">Vuetify </div></v-flex-stub></v-layout-stub> <v-layout-stub tag=\\"div\\" row=\\"\\" wrap=\\"\\"><v-flex-stub tag=\\"div\\" xs12=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><theme-stub class=\\"component\\"></theme-stub></v-card-stub></v-flex-stub> <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub value=\\"2019-01-01\\" class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub><v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\"><v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\"><anonymous-stub class=\\"component\\"></anonymous-stub></v-card-stub></v-flex-stub></v-layout-stub></v-container-stub></v-content-stub></v-app-stub>"
+          </div>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\">
+          <div class=\\"title\\">Vuetify </div>
+        </v-flex-stub>
+      </v-layout-stub>
+      <v-layout-stub tag=\\"div\\" row=\\"\\" wrap=\\"\\">
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <theme-stub class=\\"component\\"></theme-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub value=\\"2019-01-01\\" class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+        <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
+          <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
+          </v-card-stub>
+        </v-flex-stub>
+      </v-layout-stub>
+    </v-container-stub>
+  </v-content-stub>
+</v-app-stub>"
 `;
