@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/reireias/vuetifier.svg?branch=master)](https://travis-ci.org/reireias/vuetifier)
+![deploy](https://github.com/reireias/vuetifier/workflows/deploy/badge.svg) ![main](https://github.com/reireias/vuetifier/workflows/main/badge.svg)
 # Vuetifier
 
 Vuetify.js color and component examples.
