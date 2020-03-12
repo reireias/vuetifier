@@ -1,4 +1,4 @@
-![deploy](https://github.com/reireias/vuetifier/workflows/deploy/badge.svg) ![main](https://github.com/reireias/vuetifier/workflows/main/badge.svg)
+![deploy](https://github.com/reireias/vuetifier/workflows/deploy/badge.svg) ![test](https://github.com/reireias/vuetifier/workflows/test/badge.svg)
 # Vuetifier
 
 Vuetify.js color and component examples.
