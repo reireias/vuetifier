@@ -6,7 +6,7 @@ workbox.precaching.precacheAndRoute([
     "revision": "aa62ce9848cd5e8aef6bd419bb5f95d0"
   },
   {
-    "url": "/vuetifier/_nuxt/61a0c28159f14e5fdf27.js",
+    "url": "/vuetifier/_nuxt/11a2118d1ba5190c4aea.js",
     "revision": "c4037c8a99bb2ff39e196d5423f53b15"
   },
   {
