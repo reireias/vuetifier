@@ -1,11 +1,15 @@
 <template>
-  <div>
+  <div ref="div" class="hide">
     <nuxt />
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    this.$refs.div.classList.remove('hide')
+  }
+}
 </script>
 
 <style>
@@ -27,5 +31,8 @@ export default {}
 }
 .dialog-container {
   padding: 10px !important;
+}
+.hide {
+  display: none;
 }
 </style>
