@@ -6,10 +6,6 @@ workbox.precaching.precacheAndRoute([
     "revision": "aa62ce9848cd5e8aef6bd419bb5f95d0"
   },
   {
-    "url": "/vuetifier/_nuxt/11a2118d1ba5190c4aea.js",
-    "revision": "c4037c8a99bb2ff39e196d5423f53b15"
-  },
-  {
     "url": "/vuetifier/_nuxt/69260af391ad91a12d83.js",
     "revision": "ac5185c541ed1dd87a9ab5a764efa23a"
   },
@@ -24,6 +20,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/vuetifier/_nuxt/c3f98e4edfe903e0f3d5.js",
     "revision": "490817451a26c76c79602122c334b42d"
+  },
+  {
+    "url": "/vuetifier/_nuxt/e385ac79cfe3363124f9.js",
+    "revision": "3574d9fa0755f0df35fecd8c3d28cb43"
   }
 ], {
   "cacheId": "vuetifier",
