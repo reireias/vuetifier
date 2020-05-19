@@ -29,7 +29,7 @@
         offset-x
       >
         <template v-slot:activator="{ on }">
-          <v-btn :color="color.name" style="margin: 5px" v-on="on">{{
+          <v-btn :color="color.name" style="margin: 5px;" v-on="on">{{
             color.name
           }}</v-btn>
         </template>
@@ -81,7 +81,7 @@ import LinkButtons from '@/components/LinkButtons'
 import allColors from '@/plugins/colors'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
@@ -91,48 +91,48 @@ export default {
         {
           name: 'primary',
           menu: false,
-          value: null
+          value: null,
         },
         {
           name: 'secondary',
           menu: false,
-          value: null
+          value: null,
         },
         {
           name: 'accent',
           menu: false,
-          value: null
+          value: null,
         },
         {
           name: 'success',
           menu: false,
-          value: null
+          value: null,
         },
         {
           name: 'info',
           menu: false,
-          value: null
+          value: null,
         },
         {
           name: 'warning',
           menu: false,
-          value: null
+          value: null,
         },
         {
           name: 'error',
           menu: false,
-          value: null
-        }
+          value: null,
+        },
       ],
       // TODO: load from other file
-      presets: []
+      presets: [],
     }
   },
   mounted() {
-    this.colors.forEach(color => {
+    this.colors.forEach((color) => {
       color.value = this.$vuetify.theme.themes.light[color.name]
     })
-    window.addEventListener('keydown', e => {
+    window.addEventListener('keydown', (e) => {
       if (e.key === 'r') {
         this.random()
       }
@@ -148,13 +148,13 @@ export default {
       color.menu = false
     },
     random() {
-      this.colors.forEach(color => {
+      this.colors.forEach((color) => {
         const newColor = allColors[Math.floor(Math.random() * allColors.length)]
         this.$vuetify.theme.themes.light[color.name] = newColor
         this.$vuetify.theme.themes.dark[color.name] = newColor
       })
-    }
-  }
+    },
+  },
 }
 </script>
 

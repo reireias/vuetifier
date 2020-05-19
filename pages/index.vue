@@ -83,7 +83,7 @@ export default {
     SlideGroupSample,
     SliderSample,
     SwitchSample,
-    Theme
+    Theme,
   },
   data() {
     return {
@@ -106,11 +106,11 @@ export default {
         AlertSample,
         AvatarSample,
         ProgressCircularSample,
-        CarouselSample
+        CarouselSample,
       ],
-      version: process.env.vuetifyVersion
+      version: process.env.vuetifyVersion,
     }
-  }
+  },
 }
 </script>
 

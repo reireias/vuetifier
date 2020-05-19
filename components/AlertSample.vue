@@ -42,7 +42,7 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
-  }
+    LinkButtons,
+  },
 }
 </script>

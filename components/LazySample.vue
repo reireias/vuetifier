@@ -14,7 +14,7 @@
       <v-lazy
         v-model="isActive"
         :options="{
-          threshold: 0.5
+          threshold: 0.5,
         }"
         min-height="200"
         transition="fade-transition"
@@ -35,12 +35,12 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
-      isActive: false
+      isActive: false,
     }
-  }
+  },
 }
 </script>

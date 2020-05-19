@@ -5,8 +5,8 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/vuetifier/'
-        }
+          base: '/vuetifier/',
+        },
       }
     : {}
 
@@ -23,86 +23,86 @@ export default {
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: 'Vuetifier'
+        content: 'Vuetifier',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://reireias.github.io/vuetifier'
+        content: 'https://reireias.github.io/vuetifier',
       },
       { hid: 'og:title', property: 'og:title', content: 'reireias portfolio' },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Vuetify.js UI component and color examples.'
+        content: 'Vuetify.js UI component and color examples.',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://reireias.github.io/vuetifier/vuetifier.png'
+        content: 'https://reireias.github.io/vuetifier/vuetifier.png',
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary_large_image'
+        content: 'summary_large_image',
       },
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@reirei_As'
+        content: '@reirei_As',
       },
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Vuetifier'
+        content: 'Vuetifier',
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Vuetify.js UI component and color examples.'
+        content: 'Vuetify.js UI component and color examples.',
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://reireias.github.io/vuetifier/vuetifier.png'
-      }
+        content: 'https://reireias.github.io/vuetifier/vuetifier.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons',
       },
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,400&display=swap&subset=japanese'
+          'https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,400&display=swap&subset=japanese',
       },
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: './apple-touch-icon.png'
+        href: './apple-touch-icon.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: './favicon-32x32.png'
+        href: './favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: './favicon-16x16.png'
+        href: './favicon-16x16.png',
       },
       { rel: 'manifest', href: './site.webmanifest' },
-      { rel: 'mask-icon', href: './safari-pinned-tab.svg', color: '#5bbad5' }
-    ]
+      { rel: 'mask-icon', href: './safari-pinned-tab.svg', color: '#5bbad5' },
+    ],
   },
   env: {
-    vuetifyVersion: process.env.VUETIFY_VERSION || 'unknown'
+    vuetifyVersion: process.env.VUETIFY_VERSION || 'unknown',
   },
   loading: { color: '#fff' },
   css: ['~/assets/style/app.styl'],
@@ -112,8 +112,8 @@ export default {
   googleAnalytics: {
     id: 'UA-149343004-1',
     debug: {
-      sendHitTask: true
-    }
+      sendHitTask: true,
+    },
   },
   vuetify: {
     theme: {
@@ -125,7 +125,7 @@ export default {
           info: colors.blue.base,
           warning: colors.orange.base,
           error: colors.red.base,
-          success: colors.green.base
+          success: colors.green.base,
         },
         light: {
           primary: colors.blue.darken2,
@@ -134,10 +134,10 @@ export default {
           info: colors.blue.base,
           warning: colors.orange.base,
           error: colors.red.base,
-          success: colors.green.base
-        }
-      }
-    }
+          success: colors.green.base,
+        },
+      },
+    },
   },
   build: {
     extend(config, ctx) {
@@ -147,10 +147,10 @@ export default {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
         })
       }
-    }
+    },
   },
-  ...routerBase
+  ...routerBase,
 }

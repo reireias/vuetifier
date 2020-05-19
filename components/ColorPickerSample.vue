@@ -27,17 +27,17 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
       color1: '#ffffff',
-      color2: '#ffffff'
+      color2: '#ffffff',
     }
   },
   mounted() {
     this.color1 = this.$vuetify.theme.themes.light.primary
     this.color2 = this.$vuetify.theme.themes.light.secondary
-  }
+  },
 }
 </script>

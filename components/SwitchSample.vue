@@ -29,14 +29,14 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
       primary: true,
       secondary: true,
-      accent: true
+      accent: true,
     }
-  }
+  },
 }
 </script>

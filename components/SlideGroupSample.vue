@@ -73,12 +73,12 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
-      model: null
+      model: null,
     }
-  }
+  },
 }
 </script>

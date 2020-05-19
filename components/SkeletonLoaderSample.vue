@@ -30,7 +30,7 @@ import LinkButtons from '@/components/LinkButtons'
 export default {
   inject: ['theme'],
   components: {
-    LinkButtons
-  }
+    LinkButtons,
+  },
 }
 </script>

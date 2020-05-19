@@ -23,7 +23,7 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   props: {
     value: {
@@ -34,8 +34,8 @@ export default {
       )
         .toISOString()
         .substr(0, 10),
-      required: false
-    }
-  }
+      required: false,
+    },
+  },
 }
 </script>
