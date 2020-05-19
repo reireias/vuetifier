@@ -12,7 +12,7 @@ describe('index', () => {
     const vuetify = new Vuetify()
     const wrapper = shallowMount(target, {
       localVue,
-      vuetify
+      vuetify,
     })
     expect(wrapper.isVueInstance()).toBeTruthy()
     expect(wrapper.html()).toMatchSnapshot()

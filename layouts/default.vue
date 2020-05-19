@@ -8,7 +8,7 @@
 export default {
   mounted() {
     this.$refs.div.classList.remove('hide')
-  }
+  },
 }
 </script>
 

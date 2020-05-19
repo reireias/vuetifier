@@ -16,10 +16,10 @@ describe('index', () => {
       provide: {
         theme() {
           return {
-            isDark: false
+            isDark: false,
           }
-        }
-      }
+        },
+      },
     })
     expect(wrapper.isVueInstance()).toBeTruthy()
     expect(wrapper.html()).toMatchSnapshot()

@@ -19,7 +19,7 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
@@ -82,9 +82,9 @@ export default {
         'Washington',
         'West Virginia',
         'Wisconsin',
-        'Wyoming'
-      ]
+        'Wyoming',
+      ],
     }
-  }
+  },
 }
 </script>

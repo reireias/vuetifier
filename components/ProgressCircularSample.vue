@@ -45,12 +45,12 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
       interval: {},
-      value: 0
+      value: 0,
     }
   },
   beforeDestroy() {
@@ -63,6 +63,6 @@ export default {
       }
       this.value += 10
     }, 1000)
-  }
+  },
 }
 </script>

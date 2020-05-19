@@ -39,13 +39,13 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
-      chips: ['Javascript', 'Go', 'Python', 'Ruby', 'Swift', 'Kotolin']
+      chips: ['Javascript', 'Go', 'Python', 'Ruby', 'Swift', 'Kotolin'],
     }
-  }
+  },
 }
 </script>
 

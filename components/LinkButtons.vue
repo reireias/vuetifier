@@ -30,13 +30,13 @@ export default {
   props: {
     document: {
       type: String,
-      default: ''
+      default: '',
     },
     source: {
       type: String,
-      default: ''
-    }
-  }
+      default: '',
+    },
+  },
 }
 </script>
 

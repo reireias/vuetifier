@@ -33,13 +33,13 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
       absolute: true,
-      overlay: false
+      overlay: false,
     }
-  }
+  },
 }
 </script>

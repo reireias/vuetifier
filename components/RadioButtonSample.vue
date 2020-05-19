@@ -28,14 +28,14 @@
 import LinkButtons from '@/components/LinkButtons'
 export default {
   components: {
-    LinkButtons
+    LinkButtons,
   },
   data() {
     return {
       colors: ['primary', 'secondary', 'accent'],
-      radio: 0
+      radio: 0,
     }
-  }
+  },
 }
 </script>
 
