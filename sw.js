@@ -2,28 +2,28 @@ importScripts('/vuetifier/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/vuetifier/_nuxt/0275942f6bbac5a6ccb8.js",
-    "revision": "5aa79761338b96f227b34c176829cafe"
+    "url": "/vuetifier/_nuxt/1bb1dd7670ae3116f771.js",
+    "revision": "5846b67cfa85fcd2b7b176c92eb440e4"
   },
   {
-    "url": "/vuetifier/_nuxt/1de675818c8bc5a7b1a6.js",
-    "revision": "fe96d7d8be93dbb144d745f4e0637063"
+    "url": "/vuetifier/_nuxt/624aa4bc3da3de1b1e85.js",
+    "revision": "262d8e2693a1c8a3ece37ca18df65f05"
   },
   {
-    "url": "/vuetifier/_nuxt/2dc88896c75e2fc74f22.js",
-    "revision": "d0f5db07af8c2a7787d1b6984cf72f57"
+    "url": "/vuetifier/_nuxt/9e7dca52f053a3a07506.js",
+    "revision": "443389d0be902b6bfcaa6456d4c90027"
   },
   {
-    "url": "/vuetifier/_nuxt/3773920ce87b3f760f4e.js",
-    "revision": "f5b54f354bda95fbfa8ac16531fb0630"
+    "url": "/vuetifier/_nuxt/a1231708d58973cb9845.js",
+    "revision": "25ed3440b192bb428a49490bb072a44d"
   },
   {
-    "url": "/vuetifier/_nuxt/984d1fc1623aa997b73a.js",
-    "revision": "b21b617526ed042a67247ed34655a494"
+    "url": "/vuetifier/_nuxt/c4717fbfa5db665c28fe.js",
+    "revision": "6835a00c788165c6b92b82ce385d7343"
   },
   {
-    "url": "/vuetifier/_nuxt/c3f98e4edfe903e0f3d5.js",
-    "revision": "490817451a26c76c79602122c334b42d"
+    "url": "/vuetifier/_nuxt/f0c81d727c53a21f1ad9.js",
+    "revision": "e51f0b6eb028a8bee006fb77d908fafc"
   }
 ], {
   "cacheId": "vuetifier",
