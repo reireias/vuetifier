@@ -6,20 +6,20 @@ workbox.precaching.precacheAndRoute([
     "revision": "5846b67cfa85fcd2b7b176c92eb440e4"
   },
   {
-    "url": "/vuetifier/_nuxt/624aa4bc3da3de1b1e85.js",
-    "revision": "262d8e2693a1c8a3ece37ca18df65f05"
-  },
-  {
-    "url": "/vuetifier/_nuxt/9e7dca52f053a3a07506.js",
-    "revision": "443389d0be902b6bfcaa6456d4c90027"
-  },
-  {
-    "url": "/vuetifier/_nuxt/a1231708d58973cb9845.js",
+    "url": "/vuetifier/_nuxt/334de37b6426e35d71eb.js",
     "revision": "25ed3440b192bb428a49490bb072a44d"
   },
   {
-    "url": "/vuetifier/_nuxt/c4717fbfa5db665c28fe.js",
-    "revision": "6835a00c788165c6b92b82ce385d7343"
+    "url": "/vuetifier/_nuxt/5b78caf2da452c8ac987.js",
+    "revision": "e193492fa453ff87406df6f75ebf9f56"
+  },
+  {
+    "url": "/vuetifier/_nuxt/5f9a32d52481401ae5e0.js",
+    "revision": "443389d0be902b6bfcaa6456d4c90027"
+  },
+  {
+    "url": "/vuetifier/_nuxt/624aa4bc3da3de1b1e85.js",
+    "revision": "262d8e2693a1c8a3ece37ca18df65f05"
   },
   {
     "url": "/vuetifier/_nuxt/f0c81d727c53a21f1ad9.js",
