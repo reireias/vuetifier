@@ -1,7 +1,7 @@
 ![deploy](https://github.com/reireias/vuetifier/workflows/deploy/badge.svg) ![test](https://github.com/reireias/vuetifier/workflows/test/badge.svg)
 # Vuetifier
 
-Vuetify.js color and component examples.
+Vuetify.js color theme and component examples.
 
 
 ## install
