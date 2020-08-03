@@ -17,7 +17,6 @@ describe('index', () => {
         value: new Date(2019, 1, 1, 9).toISOString().substr(0, 10),
       },
     })
-    expect(wrapper.isVueInstance()).toBeTruthy()
     expect(wrapper.html()).toMatchSnapshot()
   })
 })
