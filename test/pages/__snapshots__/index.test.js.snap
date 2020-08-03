@@ -2,7 +2,7 @@
 
 exports[`index should be vue instance 1`] = `
 "<v-app-stub id=\\"app\\">
-  <v-content-stub tag=\\"main\\">
+  <v-main-stub tag=\\"main\\">
     <v-container-stub tag=\\"div\\" fluid=\\"true\\" grid-list-md=\\"\\">
       <v-layout-stub tag=\\"div\\" column=\\"\\" justify-center=\\"\\" align-center=\\"\\">
         <v-flex-stub tag=\\"div\\" xs12=\\"\\">
@@ -122,6 +122,6 @@ exports[`index should be vue instance 1`] = `
         </v-flex-stub>
       </v-layout-stub>
     </v-container-stub>
-  </v-content-stub>
+  </v-main-stub>
 </v-app-stub>"
 `;
