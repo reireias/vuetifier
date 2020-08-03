@@ -14,9 +14,9 @@ exports[`index should be vue instance 1`] = `
     <v-btn-stub color=\\"accent\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\">accent</v-btn-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" outlined=\\"true\\" type=\\"button\\">primary</v-btn-stub>
-    <v-btn-stub color=\\"secondary\\" tag=\\"button\\" activeclass=\\"\\" outlined=\\"true\\" type=\\"button\\">secondary</v-btn-stub>
-    <v-btn-stub color=\\"accent\\" tag=\\"button\\" activeclass=\\"\\" outlined=\\"true\\" type=\\"button\\">accent</v-btn-stub>
+    <v-btn-stub color=\\"primary\\" outlined=\\"true\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\">primary</v-btn-stub>
+    <v-btn-stub color=\\"secondary\\" outlined=\\"true\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\">secondary</v-btn-stub>
+    <v-btn-stub color=\\"accent\\" outlined=\\"true\\" tag=\\"button\\" activeclass=\\"\\" type=\\"button\\">accent</v-btn-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
     <v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" type=\\"button\\">
@@ -30,13 +30,13 @@ exports[`index should be vue instance 1`] = `
     </v-btn-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" outlined=\\"true\\" type=\\"button\\">
+    <v-btn-stub color=\\"primary\\" outlined=\\"true\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" type=\\"button\\">
       <v-icon-stub>email</v-icon-stub>
     </v-btn-stub>
-    <v-btn-stub color=\\"secondary\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" outlined=\\"true\\" type=\\"button\\">
+    <v-btn-stub color=\\"secondary\\" outlined=\\"true\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" type=\\"button\\">
       <v-icon-stub>email</v-icon-stub>
     </v-btn-stub>
-    <v-btn-stub color=\\"accent\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" outlined=\\"true\\" type=\\"button\\">
+    <v-btn-stub color=\\"accent\\" outlined=\\"true\\" tag=\\"button\\" activeclass=\\"\\" fab=\\"true\\" type=\\"button\\">
       <v-icon-stub>email</v-icon-stub>
     </v-btn-stub>
   </v-flex-stub>

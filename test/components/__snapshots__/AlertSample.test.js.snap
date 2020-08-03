@@ -9,28 +9,28 @@ exports[`index should be vue instance 1`] = `
     <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/alerts\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/AlertSample.vue\\"></link-buttons-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" type=\\"success\\">
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"success\\">
       Success alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" type=\\"info\\">
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"info\\">
       Info alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" type=\\"warning\\">
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"warning\\">
       Warning alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" type=\\"error\\">
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"error\\">
       Error alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" outlined=\\"true\\" type=\\"success\\">
+    <v-alert-stub outlined=\\"true\\" tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"success\\">
       Outlined success alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" outlined=\\"true\\" type=\\"info\\">
+    <v-alert-stub outlined=\\"true\\" tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"info\\">
       Outlined info alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" outlined=\\"true\\" type=\\"warning\\">
+    <v-alert-stub outlined=\\"true\\" tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"warning\\">
       Outlined warning alert.
     </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" icon=\\"\\" outlined=\\"true\\" type=\\"error\\">
+    <v-alert-stub outlined=\\"true\\" tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"error\\">
       Outlined error alert.
     </v-alert-stub>
   </v-flex-stub>
