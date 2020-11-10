@@ -45,7 +45,7 @@
     "eslint-plugin-vue": "^6.2.1",
     "http-server": "^0.12.3",
     "jest": "^24.1.0",
-    "jest-canvas-mock": "^2.2.0",
+    "jest-canvas-mock": "^2.3.0",
     "nodemon": "^2.0.6",
     "prettier": "^2.0.5",
     "push-dir": "^0.4.1",
