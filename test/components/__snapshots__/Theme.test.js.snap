@@ -3,9 +3,7 @@
 exports[`index should be vue instance 1`] = `
 "<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <div class=\\"title-text\\">
-      Theme
-    </div>
+    <div class=\\"title-text\\">Theme</div>
     <link-buttons-stub document=\\"https://vuetifyjs.com/en/customization/theme\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/Theme.vue\\"></link-buttons-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">

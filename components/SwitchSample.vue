@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Switch
-      </div>
+      <div class="title-text">Switch</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/selection-controls#switches-boolean"
         source="https://github.com/reireias/vuetifier/blob/master/components/SwitchSample.vue"

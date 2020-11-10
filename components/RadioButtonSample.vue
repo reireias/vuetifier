@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Radio Button
-      </div>
+      <div class="title-text">Radio Button</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/radios"
         source="https://github.com/reireias/vuetifier/blob/master/components/RadioButtonSample.vue"

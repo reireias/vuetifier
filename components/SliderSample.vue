@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Slider
-      </div>
+      <div class="title-text">Slider</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/sliders"
         source="https://github.com/reireias/vuetifier/blob/master/components/SliderSample.vue"
