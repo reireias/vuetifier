@@ -27,7 +27,7 @@
     "@mdi/font": "^5.4.55",
     "@nuxtjs/eslint-config": "^2.0.2",
     "@nuxtjs/vuetify": "^1.11.2",
-    "@vue/test-utils": "^1.0.3",
+    "@vue/test-utils": "^1.1.1",
     "@yarnpkg/lockfile": "^1.1.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.2.2",
