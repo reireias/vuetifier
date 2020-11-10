@@ -10,9 +10,9 @@ exports[`index should be vue instance 1`] = `
     <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Standard\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -36,9 +36,9 @@ exports[`index should be vue instance 1`] = `
     <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Filled\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" filled=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -62,9 +62,9 @@ exports[`index should be vue instance 1`] = `
     <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Outlined\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -88,9 +88,9 @@ exports[`index should be vue instance 1`] = `
     <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Solo\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" solo=\\"true\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -114,9 +114,9 @@ exports[`index should be vue instance 1`] = `
     <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -140,9 +140,9 @@ exports[`index should be vue instance 1`] = `
     <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"Multiple + Chips\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" type=\\"text\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {

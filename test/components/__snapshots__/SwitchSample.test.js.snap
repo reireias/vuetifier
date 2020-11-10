@@ -10,9 +10,9 @@ exports[`index should be vue instance 1`] = `
     <v-switch-stub color=\\"primary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"Primary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -36,9 +36,9 @@ exports[`index should be vue instance 1`] = `
     <v-switch-stub color=\\"secondary\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"Secondary\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
@@ -62,9 +62,9 @@ exports[`index should be vue instance 1`] = `
     <v-switch-stub color=\\"accent\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"Accent\\" ripple=\\"true\\" valuecomparator=\\"function deepEqual(a, b) {
   if (a === b) return true;
 
-  if (a instanceof Date &amp;&amp; b instanceof Date) {
-    // If the values are Date, they were convert to timestamp with getTime and compare it
-    if (a.getTime() !== b.getTime()) return false;
+  if (a instanceof Date &amp;&amp; b instanceof Date &amp;&amp; a.getTime() !== b.getTime()) {
+    // If the values are Date, compare them as timestamps
+    return false;
   }
 
   if (a !== Object(a) || b !== Object(b)) {
