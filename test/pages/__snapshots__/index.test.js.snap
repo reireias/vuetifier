@@ -67,7 +67,7 @@ exports[`index should be vue instance 1`] = `
         </v-flex-stub>
         <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">
           <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" height=\\"100%\\">
-            <anonymous-stub value=\\"2019-01-01\\" class=\\"component\\"></anonymous-stub>
+            <anonymous-stub class=\\"component\\"></anonymous-stub>
           </v-card-stub>
         </v-flex-stub>
         <v-flex-stub tag=\\"div\\" xs12=\\"\\" md6=\\"\\">

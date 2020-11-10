@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`index should be vue instance 1`] = `
-"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
+"<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\" value=\\"2019-02-01\\">
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
     <div class=\\"title-text\\">Datepicker</div>
     <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/date-pickers\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/DatePickerSample.vue\\"></link-buttons-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-date-picker-stub headercolor=\\"primary\\" width=\\"290\\" eventcolor=\\"warning\\" firstdayofweek=\\"0\\" localefirstdayofyear=\\"0\\" nexticon=\\"$next\\" nextmontharialabel=\\"$vuetify.datePicker.nextMonthAriaLabel\\" nextyeararialabel=\\"$vuetify.datePicker.nextYearAriaLabel\\" previcon=\\"$prev\\" prevmontharialabel=\\"$vuetify.datePicker.prevMonthAriaLabel\\" prevyeararialabel=\\"$vuetify.datePicker.prevYearAriaLabel\\" showcurrent=\\"true\\" selecteditemstext=\\"$vuetify.datePicker.itemsSelected\\" type=\\"date\\" value=\\"2019-02-01\\"></v-date-picker-stub>
+    <v-date-picker-stub headercolor=\\"primary\\" width=\\"290\\" eventcolor=\\"warning\\" firstdayofweek=\\"0\\" localefirstdayofyear=\\"0\\" nexticon=\\"$next\\" nextmontharialabel=\\"$vuetify.datePicker.nextMonthAriaLabel\\" nextyeararialabel=\\"$vuetify.datePicker.nextYearAriaLabel\\" previcon=\\"$prev\\" prevmontharialabel=\\"$vuetify.datePicker.prevMonthAriaLabel\\" prevyeararialabel=\\"$vuetify.datePicker.prevYearAriaLabel\\" showcurrent=\\"true\\" selecteditemstext=\\"$vuetify.datePicker.itemsSelected\\" type=\\"date\\" value=\\"2019-01-01\\"></v-date-picker-stub>
   </v-flex-stub>
 </v-layout-stub>"
 `;
