@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Theme
-      </div>
+      <div class="title-text">Theme</div>
       <link-buttons
         document="https://vuetifyjs.com/en/customization/theme"
         source="https://github.com/reireias/vuetifier/blob/master/components/Theme.vue"
@@ -29,7 +27,7 @@
         offset-x
       >
         <template v-slot:activator="{ on }">
-          <v-btn :color="color.name" style="margin: 5px;" v-on="on">{{
+          <v-btn :color="color.name" style="margin: 5px" v-on="on">{{
             color.name
           }}</v-btn>
         </template>

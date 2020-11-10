@@ -3,24 +3,14 @@
 exports[`index should be vue instance 1`] = `
 "<v-layout-stub tag=\\"div\\" wrap=\\"\\" align-center=\\"\\" justify-center=\\"\\">
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <div class=\\"title-text\\">
-      Alert
-    </div>
+    <div class=\\"title-text\\">Alert</div>
     <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/alerts\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/AlertSample.vue\\"></link-buttons-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"success\\">
-      Success alert.
-    </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"info\\">
-      Info alert.
-    </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"warning\\">
-      Warning alert.
-    </v-alert-stub>
-    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"error\\">
-      Error alert.
-    </v-alert-stub>
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"success\\"> Success alert. </v-alert-stub>
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"info\\"> Info alert. </v-alert-stub>
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"warning\\"> Warning alert. </v-alert-stub>
+    <v-alert-stub tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"error\\"> Error alert. </v-alert-stub>
     <v-alert-stub outlined=\\"true\\" tag=\\"div\\" value=\\"true\\" closelabel=\\"$vuetify.close\\" closeicon=\\"$cancel\\" icon=\\"\\" type=\\"success\\">
       Outlined success alert.
     </v-alert-stub>

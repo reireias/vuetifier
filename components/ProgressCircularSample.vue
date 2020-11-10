@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Progress Circular
-      </div>
+      <div class="title-text">Progress Circular</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/progress"
         source="https://github.com/reireias/vuetifier/blob/master/components/ProgressCircularSample.vue"

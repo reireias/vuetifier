@@ -6,7 +6,7 @@
           column
           justify-center
           align-center
-          style="margin-bottom: 20px;"
+          style="margin-bottom: 20px"
         >
           <v-flex xs12>
             <div class="primary--text display-4 font-weight-light">

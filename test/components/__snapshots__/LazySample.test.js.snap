@@ -13,9 +13,7 @@ exports[`index should be vue instance 1`] = `
     <v-lazy-stub minheight=\\"200\\" options=\\"[object Object]\\" tag=\\"div\\" transition=\\"fade-transition\\">
       <v-card-stub loaderheight=\\"4\\" tag=\\"div\\" maxwidth=\\"336\\" class=\\"mx-auto\\">
         <v-card-title-stub>Lazy load</v-card-title-stub>
-        <v-card-text-stub>
-          Lazzy load component.
-        </v-card-text-stub>
+        <v-card-text-stub> Lazzy load component. </v-card-text-stub>
       </v-card-stub>
     </v-lazy-stub>
   </v-flex-stub>

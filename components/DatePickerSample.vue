@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Datepicker
-      </div>
+      <div class="title-text">Datepicker</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/date-pickers"
         source="https://github.com/reireias/vuetifier/blob/master/components/DatePickerSample.vue"

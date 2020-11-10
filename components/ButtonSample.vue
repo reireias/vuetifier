@@ -1,9 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        Button
-      </div>
+      <div class="title-text">Button</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/buttons"
         source="https://github.com/reireias/vuetifier/blob/master/components/ButtonSample.vue"

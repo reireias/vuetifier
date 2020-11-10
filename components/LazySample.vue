@@ -22,9 +22,7 @@
         <v-card class="mx-auto" max-width="336">
           <v-card-title>Lazy load</v-card-title>
 
-          <v-card-text>
-            Lazzy load component.
-          </v-card-text>
+          <v-card-text> Lazzy load component. </v-card-text>
         </v-card>
       </v-lazy>
     </v-flex>
