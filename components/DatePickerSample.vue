@@ -23,17 +23,15 @@ export default {
   components: {
     LinkButtons,
   },
-  props: {
-    value: {
-      type: String,
-      default: (process.env.NODE_ENV !== 'test'
+  data() {
+    return {
+      value: (process.env.NODE_ENV !== 'test'
         ? new Date()
         : new Date('2019-01-01')
       )
         .toISOString()
         .substr(0, 10),
-      required: false,
-    },
+    }
   },
 }
 </script>

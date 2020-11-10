@@ -28,9 +28,9 @@
 <script>
 import LinkButtons from '@/components/LinkButtons'
 export default {
-  inject: ['theme'],
   components: {
     LinkButtons,
   },
+  inject: ['theme'],
 }
 </script>

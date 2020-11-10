@@ -26,7 +26,7 @@
         :close-on-content-click="false"
         offset-x
       >
-        <template v-slot:activator="{ on }">
+        <template #activator="{ on }">
           <v-btn :color="color.name" style="margin: 5px" v-on="on">{{
             color.name
           }}</v-btn>
@@ -48,7 +48,7 @@
     </v-flex>
 
     <v-tooltip bottom>
-      <template v-slot:activator="{ on }">
+      <template #activator="{ on }">
         <v-btn v-on="on" @click="random"
           ><v-icon left>sync</v-icon>Random</v-btn
         >
