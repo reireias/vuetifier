@@ -16,7 +16,7 @@ exports[`index should be vue instance 1`] = `
       <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Python</v-chip-stub>
       <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Ruby</v-chip-stub>
       <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Swift</v-chip-stub>
-      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Kotolin</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filtericon=\\"$complete\\">Kotlin</v-chip-stub>
     </v-chip-group-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
@@ -26,7 +26,7 @@ exports[`index should be vue instance 1`] = `
       <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Python</v-chip-stub>
       <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Ruby</v-chip-stub>
       <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Swift</v-chip-stub>
-      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Kotolin</v-chip-stub>
+      <v-chip-stub activeclass=\\"\\" tag=\\"span\\" active=\\"true\\" closeicon=\\"$delete\\" filter=\\"true\\" filtericon=\\"$complete\\" outlined=\\"true\\">Kotlin</v-chip-stub>
     </v-chip-group-stub>
   </v-flex-stub>
 </v-layout-stub>"

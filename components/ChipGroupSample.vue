@@ -43,7 +43,7 @@ export default {
   },
   data() {
     return {
-      chips: ['Javascript', 'Go', 'Python', 'Ruby', 'Swift', 'Kotolin'],
+      chips: ['Javascript', 'Go', 'Python', 'Ruby', 'Swift', 'Kotlin'],
     }
   },
 }
