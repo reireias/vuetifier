@@ -1,10 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        <v-icon large color="accent">fiber_new</v-icon>
-        Chip Group
-      </div>
+      <div class="title-text">Chip Group</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/chip-groups"
         source="https://github.com/reireias/vuetifier/blob/master/components/ChipGroupSample.vue"

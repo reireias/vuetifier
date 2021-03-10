@@ -1,10 +1,7 @@
 <template>
   <v-layout wrap align-center justify-center>
     <v-flex text-center xs12>
-      <div class="title-text">
-        <v-icon large color="accent">fiber_new</v-icon>
-        Color Picker
-      </div>
+      <div class="title-text">Color Picker</div>
       <link-buttons
         document="https://vuetifyjs.com/en/components/color-pickers"
         source="https://github.com/reireias/vuetifier/blob/master/components/ColorPickerSample.vue"
