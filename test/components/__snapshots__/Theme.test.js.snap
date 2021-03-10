@@ -30,7 +30,7 @@ exports[`index should be vue instance 1`] = `
   return props.every(function (p) {
     return deepEqual(a[p], b[p]);
   });
-}\\" activeclass=\\"v-item--active\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" height=\\"auto\\" column=\\"true\\" row=\\"true\\" class=\\"centered-radio\\">
+}\\" activeclass=\\"v-item--active\\" tag=\\"div\\" errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" height=\\"auto\\" column=\\"true\\" row=\\"true\\" class=\\"centered-radio\\">
       <v-radio-stub ripple=\\"true\\" label=\\"light\\" officon=\\"$radioOff\\" onicon=\\"$radioOn\\"></v-radio-stub>
       <v-radio-stub ripple=\\"true\\" label=\\"dark\\" officon=\\"$radioOff\\" onicon=\\"$radioOn\\" value=\\"true\\"></v-radio-stub>
     </v-radio-group-stub>

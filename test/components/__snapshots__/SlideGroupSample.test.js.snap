@@ -10,7 +10,7 @@ exports[`index should be vue instance 1`] = `
     <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/slide-groups\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/SlideGroupSample.vue\\"></link-buttons-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-slide-group-stub activeclass=\\"v-slide-item--active\\" multiple=\\"true\\" mobilebreakpoint=\\"1264\\" nexticon=\\"$next\\" previcon=\\"$prev\\" showarrows=\\"true\\">
+    <v-slide-group-stub activeclass=\\"v-slide-item--active\\" multiple=\\"true\\" tag=\\"div\\" mobilebreakpoint=\\"1264\\" nexticon=\\"$next\\" previcon=\\"$prev\\" showarrows=\\"true\\">
       <v-slide-item-stub></v-slide-item-stub>
       <v-slide-item-stub></v-slide-item-stub>
       <v-slide-item-stub></v-slide-item-stub>
@@ -40,7 +40,7 @@ exports[`index should be vue instance 1`] = `
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
     <v-sheet-stub elevation=\\"8\\" maxwidth=\\"800\\" tag=\\"div\\" class=\\"mx-auto\\">
-      <v-slide-group-stub activeclass=\\"v-slide-item--active\\" mobilebreakpoint=\\"1264\\" nexticon=\\"mdi-plus\\" previcon=\\"mdi-minus\\" showarrows=\\"true\\" class=\\"pa-4\\">
+      <v-slide-group-stub activeclass=\\"v-slide-item--active\\" tag=\\"div\\" mobilebreakpoint=\\"1264\\" nexticon=\\"mdi-plus\\" previcon=\\"mdi-minus\\" showarrows=\\"true\\" class=\\"pa-4\\">
         <v-slide-item-stub></v-slide-item-stub>
         <v-slide-item-stub></v-slide-item-stub>
         <v-slide-item-stub></v-slide-item-stub>

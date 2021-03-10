@@ -7,7 +7,7 @@ exports[`index should be vue instance 1`] = `
     <link-buttons-stub document=\\"https://vuetifyjs.com/en/components/carousels\\" source=\\"https://github.com/reireias/vuetifier/blob/master/components/CarouselSample.vue\\"></link-buttons-stub>
   </v-flex-stub>
   <v-flex-stub tag=\\"div\\" text-center=\\"\\" xs12=\\"\\">
-    <v-carousel-stub activeclass=\\"v-window-item--active\\" mandatory=\\"true\\" continuous=\\"true\\" nexticon=\\"$next\\" previcon=\\"$prev\\" showarrows=\\"true\\" delimitericon=\\"$delimiter\\" height=\\"500\\" interval=\\"6000\\">
+    <v-carousel-stub activeclass=\\"v-window-item--active\\" mandatory=\\"true\\" tag=\\"div\\" continuous=\\"true\\" nexticon=\\"$next\\" previcon=\\"$prev\\" showarrows=\\"true\\" delimitericon=\\"$delimiter\\" height=\\"500\\" interval=\\"6000\\">
       <v-carousel-item-stub>
         <v-sheet-stub color=\\"primary\\" height=\\"100%\\" tile=\\"true\\" tag=\\"div\\">
           <v-layout-stub tag=\\"div\\" align-center=\\"\\" fill-height=\\"\\" justify-center=\\"\\">
