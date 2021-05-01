@@ -21,7 +21,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "cross-env": "^7.0.3",
     "nuxt": "^2.15.4",
-    "vuetify": "^2.4.5"
+    "vuetify": "^2.4.11"
   },
   "devDependencies": {
     "@mdi/font": "^5.9.55",
