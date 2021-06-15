@@ -107,7 +107,7 @@ exports[`index should be vue instance 1`] = `
       </v-card-stub>
     </v-menu-stub>
   </v-flex-stub>
-  <v-tooltip-stub opendelay=\\"0\\" closedelay=\\"0\\" contentclass=\\"\\" bottom=\\"true\\" fixed=\\"true\\" openonhover=\\"true\\" maxwidth=\\"auto\\" nudgebottom=\\"0\\" nudgeleft=\\"0\\" nudgeright=\\"0\\" nudgetop=\\"0\\" nudgewidth=\\"0\\" tag=\\"span\\"> <span>'R' key is same feature.</span></v-tooltip-stub>
+  <v-tooltip-stub opendelay=\\"0\\" closedelay=\\"0\\" bottom=\\"true\\" fixed=\\"true\\" openonhover=\\"true\\" contentclass=\\"\\" maxwidth=\\"auto\\" nudgebottom=\\"0\\" nudgeleft=\\"0\\" nudgeright=\\"0\\" nudgetop=\\"0\\" nudgewidth=\\"0\\" tag=\\"span\\"> <span>'R' key is same feature.</span></v-tooltip-stub>
   <!---->
 </v-layout-stub>"
 `;
