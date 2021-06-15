@@ -11,7 +11,7 @@ const routerBase =
     : {}
 
 export default {
-  mode: 'universal',
+  target: 'static',
   head: {
     title: pkg.name,
     meta: [
